@@ -1,0 +1,30 @@
+# Load zshrc.vi-mode to add vi-mode indicator to [grml's zsh config](http://bewatermyfriend.org/p/2014/007/)
+source ~/.zsh/.zshrc.vi-mode
+
+# Introduce and define the vi-mode token as a prompt item (grml's provided standard prompt: grml_theme_add_token vi-mode '%1v' '%K{blue}%F{white}(' ')%f%k ')
+grml_theme_add_token vi-mode '%1v' '%F{blue}(' ')%f%k '
+
+# Add the vi-mode indicator to grmls's prompt
+zstyle ':prompt:grml:left:setup' items vi-mode rc change-root user at host path vcs newline percent
+
+# Use zsh's vi-like key bindings
+bindkey -v
+
+# Define alias for dotfile management via git bare repository, see [Atlassian Tutorial](https://www.atlassian.com/git/tutorials/dotfiles)
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+# Enable [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# Add 'completion' to suggestions strategy: First try to find a suggestion from your history, but, if it can't find a match, will find a suggestion from the completion engine
+ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+
+# Enable [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# Enable [zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search)
+source ~/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
+# Set recommended key bindings
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
+bindkey -M vicmd 'k' history-substring-search-up
+bindkey -M vicmd 'j' history-substring-search-down

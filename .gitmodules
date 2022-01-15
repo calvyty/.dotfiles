@@ -1,0 +1,48 @@
+[submodule ".tmux/plugins/tmux-pain-control"]
+	path = .tmux/plugins/tmux-pain-control
+	url = https://github.com/tmux-plugins/tmux-pain-control
+[submodule ".tmux/plugins/tmux-prefix-highlight"]
+	path = .tmux/plugins/tmux-prefix-highlight
+	url = https://github.com/tmux-plugins/tmux-prefix-highlight
+[submodule ".tmux/plugins/tmux-sensible"]
+	path = .tmux/plugins/tmux-sensible
+	url = https://github.com/tmux-plugins/tmux-sensible
+[submodule ".tmux/plugins/tpm"]
+	path = .tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm
+[submodule ".vim/pack/vendor/start/VimCompletesMe"]
+	path = .vim/pack/vendor/start/VimCompletesMe
+	url = https://github.com/ackyshake/VimCompletesMe
+[submodule ".vim/pack/tpope/start/commentary"]
+	path = .vim/pack/tpope/start/commentary
+	url = https://github.com/tpope/vim-commentary
+[submodule ".vim/pack/tpope/start/repeat"]
+	path = .vim/pack/tpope/start/repeat
+	url = https://github.com/tpope/vim-repeat
+[submodule ".vim/pack/tpope/start/sensible"]
+	path = .vim/pack/tpope/start/sensible
+	url = https://github.com/tpope/vim-sensible
+[submodule ".vim/pack/tpope/start/sleuth"]
+	path = .vim/pack/tpope/start/sleuth
+	url = https://github.com/tpope/vim-sleuth
+[submodule ".vim/pack/tpope/start/surround"]
+	path = .vim/pack/tpope/start/surround
+	url = https://github.com/tpope/vim-surround
+[submodule ".vim/pack/tpope/start/unimpaired"]
+	path = .vim/pack/tpope/start/unimpaired
+	url = https://github.com/tpope/vim-unimpaired
+[submodule ".vim/pack/tpope/start/vim-flagship"]
+	path = .vim/pack/tpope/start/vim-flagship
+	url = https://github.com/tpope/vim-flagship
+[submodule ".vim/pack/tpope/start/vim-rsi"]
+	path = .vim/pack/tpope/start/vim-rsi
+	url = https://github.com/tpope/vim-rsi
+[submodule ".zsh/zsh-autosuggestions"]
+	path = .zsh/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions
+[submodule ".zsh/zsh-syntax-highlighting"]
+	path = .zsh/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting
+[submodule ".zsh/zsh-history-substring-search"]
+	path = .zsh/zsh-history-substring-search
+	url = https://github.com/zsh-users/zsh-history-substring-search
