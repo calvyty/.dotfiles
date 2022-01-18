@@ -49,3 +49,6 @@
 [submodule ".vim/pack/jkreeftmeijer/start/vim-numbertoggle"]
 	path = .vim/pack/jkreeftmeijer/start/vim-numbertoggle
 	url = https://github.com/jeffkreeftmeijer/vim-numbertoggle
+[submodule ".vim/pack/jkreeftmeijer/start/vim-dim"]
+	path = .vim/pack/jkreeftmeijer/start/vim-dim
+	url = https://github.com/jeffkreeftmeijer/vim-dim

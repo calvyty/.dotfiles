@@ -22,3 +22,6 @@ omap < [
 omap > ]
 xmap < [
 xmap > ]
+
+" Enable dim colorscheme
+colorscheme dim
