@@ -46,3 +46,6 @@
 [submodule ".zsh/zsh-history-substring-search"]
 	path = .zsh/zsh-history-substring-search
 	url = https://github.com/zsh-users/zsh-history-substring-search
+[submodule ".vim/pack/jkreeftmeijer/start/vim-numbertoggle"]
+	path = .vim/pack/jkreeftmeijer/start/vim-numbertoggle
+	url = https://github.com/jeffkreeftmeijer/vim-numbertoggle
