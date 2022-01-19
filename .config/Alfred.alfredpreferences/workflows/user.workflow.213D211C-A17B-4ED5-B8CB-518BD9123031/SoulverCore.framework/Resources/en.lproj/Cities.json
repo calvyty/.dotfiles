@@ -1,0 +1,3685 @@
+[
+  {
+    "elevation": 12,
+    "timezone_id": "Asia/Shanghai",
+    "name": "Shanghai",
+    "population": "22,315,474",
+    "identifier": "shanghai"
+  },
+  {
+    "elevation": 39,
+    "timezone_id": "Europe/Istanbul",
+    "name": "Istanbul",
+    "population": "14,804,116",
+    "identifier": "istanbul"
+  },
+  {
+    "elevation": 31,
+    "timezone_id": "America/Argentina/Buenos_Aires",
+    "name": "Buenos Aires",
+    "population": "13,076,300",
+    "identifier": "buenos aires"
+  },
+  {
+    "elevation": 8,
+    "timezone_id": "Asia/Kolkata",
+    "name": "Mumbai",
+    "population": "12,691,836",
+    "identifier": "mumbai"
+  },
+  {
+    "elevation": 2240,
+    "timezone_id": "America/Mexico_City",
+    "name": "Mexico City",
+    "population": "12,294,193",
+    "identifier": "mexico city"
+  },
+  {
+    "elevation": 49,
+    "timezone_id": "Asia/Shanghai",
+    "name": "Beijing",
+    "population": "11,716,620",
+    "identifier": "beijing"
+  },
+  {
+    "elevation": 8,
+    "timezone_id": "Asia/Karachi",
+    "name": "Karachi",
+    "population": "11,624,219",
+    "identifier": "karachi"
+  },
+  {
+    "elevation": 11,
+    "timezone_id": "Asia/Shanghai",
+    "name": "Tianjin",
+    "population": "11,090,314",
+    "identifier": "tianjin"
+  },
+  {
+    "elevation": 15,
+    "timezone_id": "Asia/Shanghai",
+    "name": "Guangzhou",
+    "population": "11,071,424",
+    "identifier": "guangzhou"
+  },
+  {
+    "elevation": 227,
+    "timezone_id": "Asia/Kolkata",
+    "name": "Delhi",
+    "population": "10,927,986",
+    "identifier": "delhi"
+  },
+  {
+    "elevation": 144,
+    "timezone_id": "Europe/Moscow",
+    "name": "Moscow",
+    "population": "10,381,222",
+    "identifier": "moscow"
+  },
+  {
+    "elevation": 4,
+    "timezone_id": "Asia/Shanghai",
+    "name": "Shenzhen",
+    "population": "10,358,381",
+    "identifier": "shenzhen"
+  },
+  {
+    "elevation": 23,
+    "timezone_id": "Asia/Dhaka",
+    "name": "Dhaka",
+    "population": "10,356,500",
+    "identifier": "dhaka"
+  },
+  {
+    "elevation": 38,
+    "timezone_id": "Asia/Seoul",
+    "name": "Seoul",
+    "population": "10,349,312",
+    "identifier": "seoul"
+  },
+  {
+    "elevation": 769,
+    "timezone_id": "America/Sao_Paulo",
+    "name": "Sao Paulo",
+    "population": "10,021,295",
+    "identifier": "sao paulo"
+  },
+  {
+    "elevation": 20,
+    "timezone_id": "Asia/Shanghai",
+    "name": "Wuhan",
+    "population": "9,785,388",
+    "identifier": "wuhan"
+  },
+  {
+    "elevation": 11,
+    "timezone_id": "Africa/Lagos",
+    "name": "Lagos",
+    "population": "9,000,000",
+    "identifier": "lagos"
+  },
+  {
+    "elevation": 16,
+    "timezone_id": "Asia/Jakarta",
+    "name": "Jakarta",
+    "population": "8,540,121",
+    "identifier": "jakarta"
+  },
+  {
+    "elevation": 44,
+    "timezone_id": "Asia/Tokyo",
+    "name": "Tokyo",
+    "population": "8,336,599",
+    "identifier": "tokyo"
+  },
+  {
+    "aliases": [
+      "NYC"
+    ],
+    "elevation": 57,
+    "timezone_id": "America/New_York",
+    "name": "New York",
+    "population": "8,175,133",
+    "identifier": "new york"
+  },
+  {
+    "elevation": 1,
+    "timezone_id": "Asia/Shanghai",
+    "name": "Dongguan",
+    "population": "8,000,000",
+    "identifier": "dongguan"
+  },
+  {
+    "elevation": 10,
+    "timezone_id": "Asia/Taipei",
+    "name": "Taipei",
+    "population": "7,871,900",
+    "identifier": "taipei"
+  },
+  {
+    "elevation": 281,
+    "timezone_id": "Africa/Kinshasa",
+    "name": "Kinshasa",
+    "population": "7,785,965",
+    "identifier": "kinshasa"
+  },
+  {
+    "elevation": 23,
+    "timezone_id": "Africa/Cairo",
+    "name": "Cairo",
+    "population": "7,734,614",
+    "identifier": "cairo"
+  },
+  {
+    "elevation": 2582,
+    "timezone_id": "America/Bogota",
+    "name": "Bogota",
+    "population": "7,674,366",
+    "identifier": "bogota"
+  },
+  {
+    "elevation": 25,
+    "timezone_id": "Europe/London",
+    "name": "London",
+    "population": "7,556,900",
+    "identifier": "london"
+  },
+  {
+    "elevation": 225,
+    "timezone_id": "Asia/Shanghai",
+    "name": "Chongqing",
+    "population": "7,457,600",
+    "identifier": "chongqing"
+  },
+  {
+    "elevation": 499,
+    "timezone_id": "Asia/Shanghai",
+    "name": "Chengdu",
+    "population": "7,415,590",
+    "identifier": "chengdu"
+  },
+  {
+    "elevation": 41,
+    "timezone_id": "Asia/Baghdad",
+    "name": "Baghdad",
+    "population": "7,216,000",
+    "identifier": "baghdad"
+  },
+  {
+    "elevation": 22,
+    "timezone_id": "Asia/Shanghai",
+    "name": "Nanjing",
+    "population": "7,165,292",
+    "identifier": "nanjing"
+  },
+  {
+    "elevation": 1178,
+    "timezone_id": "Asia/Tehran",
+    "name": "Tehran",
+    "population": "7,153,309",
+    "identifier": "tehran"
+  },
+  {
+    "elevation": 287,
+    "timezone_id": "Asia/Shanghai",
+    "name": "Nanchong",
+    "population": "7,150,000",
+    "identifier": "nanchong"
+  },
+  {
+    "elevation": 60,
+    "timezone_id": "Asia/Hong_Kong",
+    "name": "Hong Kong",
+    "population": "7,012,738",
+    "identifier": "hong kong"
+  },
+  {
+    "elevation": 416,
+    "timezone_id": "Asia/Shanghai",
+    "name": "Xi'an",
+    "population": "6,501,190",
+    "identifier": "xi'an"
+  },
+  {
+    "elevation": 6,
+    "timezone_id": "America/Sao_Paulo",
+    "name": "Rio de Janeiro",
+    "population": "6,023,699",
+    "identifier": "rio de janeiro"
+  },
+  {
+    "elevation": 12,
+    "timezone_id": "Asia/Bangkok",
+    "name": "Bangkok",
+    "population": "5,104,476",
+    "identifier": "bangkok"
+  },
+  {
+    "elevation": 914,
+    "timezone_id": "Asia/Kolkata",
+    "name": "Bengaluru",
+    "population": "5,104,047",
+    "identifier": "bengaluru"
+  },
+  {
+    "elevation": 11,
+    "timezone_id": "Europe/Moscow",
+    "name": "Saint Petersburg",
+    "population": "5,028,000",
+    "identifier": "saint petersburg"
+  },
+  {
+    "elevation": 556,
+    "timezone_id": "America/Santiago",
+    "name": "Santiago",
+    "population": "4,837,295",
+    "identifier": "santiago"
+  },
+  {
+    "elevation": 11,
+    "timezone_id": "Asia/Kolkata",
+    "name": "Kolkata",
+    "population": "4,631,392",
+    "identifier": "kolkata"
+  },
+  {
+    "elevation": 1,
+    "timezone_id": "Australia/Sydney",
+    "name": "Sydney",
+    "population": "4,627,345",
+    "identifier": "sydney"
+  },
+  {
+    "elevation": 30,
+    "timezone_id": "Asia/Yangon",
+    "name": "Yangon",
+    "population": "4,477,638",
+    "identifier": "yangon"
+  },
+  {
+    "elevation": 14,
+    "timezone_id": "Asia/Kolkata",
+    "name": "Chennai",
+    "population": "4,328,063",
+    "identifier": "chennai"
+  },
+  {
+    "elevation": 58,
+    "timezone_id": "Australia/Melbourne",
+    "name": "Melbourne",
+    "population": "4,246,375",
+    "identifier": "melbourne"
+  },
+  {
+    "elevation": 612,
+    "timezone_id": "Asia/Riyadh",
+    "name": "Riyadh",
+    "population": "4,205,961",
+    "identifier": "riyadh"
+  },
+  {
+    "elevation": 96,
+    "timezone_id": "America/Los_Angeles",
+    "name": "Los Angeles",
+    "population": "3,971,883",
+    "identifier": "los angeles"
+  },
+  {
+    "elevation": 15,
+    "timezone_id": "Asia/Dhaka",
+    "name": "Chittagong",
+    "population": "3,920,222",
+    "identifier": "chittagong"
+  },
+  {
+    "elevation": 9,
+    "timezone_id": "Africa/Cairo",
+    "name": "Alexandria",
+    "population": "3,811,516",
+    "identifier": "alexandria"
+  },
+  {
+    "elevation": 56,
+    "timezone_id": "Asia/Kolkata",
+    "name": "Ahmedabad",
+    "population": "3,719,710",
+    "identifier": "ahmedabad"
+  },
+  {
+    "elevation": 26,
+    "timezone_id": "Asia/Seoul",
+    "name": "Busan",
+    "population": "3,678,555",
+    "identifier": "busan"
+  },
+  {
+    "elevation": 76,
+    "timezone_id": "Africa/Abidjan",
+    "name": "Abidjan",
+    "population": "3,677,115",
+    "identifier": "abidjan"
+  },
+  {
+    "elevation": 484,
+    "timezone_id": "Africa/Lagos",
+    "name": "Kano",
+    "population": "3,626,068",
+    "identifier": "kano"
+  },
+  {
+    "elevation": 515,
+    "timezone_id": "Asia/Kolkata",
+    "name": "Hyderabad",
+    "population": "3,597,816",
+    "identifier": "hyderabad"
+  },
+  {
+    "elevation": 21,
+    "timezone_id": "Asia/Tokyo",
+    "name": "Yokohama",
+    "population": "3,574,443",
+    "identifier": "yokohama"
+  },
+  {
+    "elevation": 181,
+    "timezone_id": "Africa/Lagos",
+    "name": "Ibadan",
+    "population": "3,565,108",
+    "identifier": "ibadan"
+  },
+  {
+    "elevation": 23,
+    "timezone_id": "Asia/Singapore",
+    "name": "Singapore",
+    "population": "3,547,809",
+    "identifier": "singapore"
+  },
+  {
+    "elevation": 874,
+    "timezone_id": "Europe/Istanbul",
+    "name": "Ankara",
+    "population": "3,517,182",
+    "identifier": "ankara"
+  },
+  {
+    "elevation": 7,
+    "timezone_id": "Asia/Ho_Chi_Minh",
+    "name": "Ho Chi Minh City",
+    "population": "3,467,331",
+    "identifier": "ho chi minh city"
+  },
+  {
+    "elevation": 25,
+    "timezone_id": "Africa/Johannesburg",
+    "name": "Cape Town",
+    "population": "3,433,441",
+    "identifier": "cape town"
+  },
+  {
+    "elevation": 43,
+    "timezone_id": "Europe/Berlin",
+    "name": "Berlin",
+    "population": "3,426,354",
+    "identifier": "berlin"
+  },
+  {
+    "elevation": 665,
+    "timezone_id": "Europe/Madrid",
+    "name": "Madrid",
+    "population": "3,255,944",
+    "identifier": "madrid"
+  },
+  {
+    "elevation": 43,
+    "timezone_id": "Asia/Pyongyang",
+    "name": "Pyongyang",
+    "population": "3,222,000",
+    "identifier": "pyongyang"
+  },
+  {
+    "elevation": 27,
+    "timezone_id": "Africa/Casablanca",
+    "name": "Casablanca",
+    "population": "3,144,909",
+    "identifier": "casablanca"
+  },
+  {
+    "elevation": 14,
+    "timezone_id": "Asia/Urumqi",
+    "name": "Zhongshan",
+    "population": "3,121,275",
+    "identifier": "zhongshan"
+  },
+  {
+    "elevation": 21,
+    "timezone_id": "Africa/Johannesburg",
+    "name": "Durban",
+    "population": "3,120,282",
+    "identifier": "durban"
+  },
+  {
+    "elevation": 1798,
+    "timezone_id": "Asia/Kabul",
+    "name": "Kabul",
+    "population": "3,043,532",
+    "identifier": "kabul"
+  },
+  {
+    "elevation": 862,
+    "timezone_id": "Asia/Urumqi",
+    "name": "Urumqi",
+    "population": "3,029,372",
+    "identifier": "urumqi"
+  },
+  {
+    "elevation": 887,
+    "timezone_id": "America/Caracas",
+    "name": "Caracas",
+    "population": "3,000,000",
+    "identifier": "caracas"
+  },
+  {
+    "elevation": 24,
+    "timezone_id": "Asia/Dubai",
+    "name": "Dubai",
+    "population": "2,956,587",
+    "identifier": "dubai"
+  },
+  {
+    "elevation": 22,
+    "timezone_id": "Asia/Riyadh",
+    "name": "Jeddah",
+    "population": "2,867,446",
+    "identifier": "jeddah"
+  },
+  {
+    "elevation": 187,
+    "timezone_id": "Europe/Kiev",
+    "name": "Kiev",
+    "population": "2,797,553",
+    "identifier": "kyiv"
+  },
+  {
+    "elevation": 73,
+    "timezone_id": "Africa/Luanda",
+    "name": "Luanda",
+    "population": "2,776,168",
+    "identifier": "luanda"
+  },
+  {
+    "elevation": 49,
+    "timezone_id": "Asia/Manila",
+    "name": "Quezon City",
+    "population": "2,761,720",
+    "identifier": "quezon city"
+  },
+  {
+    "elevation": 2405,
+    "timezone_id": "Africa/Addis_Ababa",
+    "name": "Addis Ababa",
+    "population": "2,757,729",
+    "identifier": "addis ababa"
+  },
+  {
+    "elevation": 1684,
+    "timezone_id": "Africa/Nairobi",
+    "name": "Nairobi",
+    "population": "2,750,547",
+    "identifier": "nairobi"
+  },
+  {
+    "elevation": 180,
+    "timezone_id": "America/Chicago",
+    "name": "Chicago",
+    "population": "2,720,546",
+    "identifier": "chicago"
+  },
+  {
+    "elevation": 10,
+    "timezone_id": "America/Bahia",
+    "name": "Salvador",
+    "population": "2,711,840",
+    "identifier": "salvador"
+  },
+  {
+    "elevation": 24,
+    "timezone_id": "Africa/Dar_es_Salaam",
+    "name": "Dar es Salaam",
+    "population": "2,698,652",
+    "identifier": "dar es salaam"
+  },
+  {
+    "elevation": 175,
+    "timezone_id": "America/Toronto",
+    "name": "Toronto",
+    "population": "2,600,000",
+    "identifier": "toronto"
+  },
+  {
+    "elevation": 24,
+    "timezone_id": "Asia/Tokyo",
+    "name": "Osaka",
+    "population": "2,592,413",
+    "identifier": "osaka"
+  },
+  {
+    "elevation": 12,
+    "timezone_id": "Africa/Mogadishu",
+    "name": "Mogadishu",
+    "population": "2,587,183",
+    "identifier": "mogadishu"
+  },
+  {
+    "elevation": 122,
+    "timezone_id": "Europe/Istanbul",
+    "name": "Izmir",
+    "population": "2,500,603",
+    "identifier": "izmir"
+  },
+  {
+    "elevation": 12,
+    "timezone_id": "Africa/Dakar",
+    "name": "Dakar",
+    "population": "2,476,400",
+    "identifier": "dakar"
+  },
+  {
+    "elevation": 26,
+    "timezone_id": "Africa/Cairo",
+    "name": "Giza",
+    "population": "2,443,203",
+    "identifier": "giza"
+  },
+  {
+    "elevation": 18,
+    "timezone_id": "America/Fortaleza",
+    "name": "Fortaleza",
+    "population": "2,400,000",
+    "identifier": "fortaleza"
+  },
+  {
+    "elevation": 8,
+    "timezone_id": "Asia/Jakarta",
+    "name": "Surabaya",
+    "population": "2,374,658",
+    "identifier": "surabaya"
+  },
+  {
+    "elevation": 872,
+    "timezone_id": "America/Sao_Paulo",
+    "name": "Belo Horizonte",
+    "population": "2,373,224",
+    "identifier": "belo horizonte"
+  },
+  {
+    "elevation": 52,
+    "timezone_id": "Europe/Rome",
+    "name": "Rome",
+    "population": "2,318,895",
+    "identifier": "rome"
+  },
+  {
+    "elevation": 1003,
+    "timezone_id": "Asia/Tehran",
+    "name": "Mashhad",
+    "population": "2,307,177",
+    "identifier": "mashhad"
+  },
+  {
+    "elevation": 18,
+    "timezone_id": "America/New_York",
+    "name": "Brooklyn",
+    "population": "2,300,664",
+    "identifier": "brooklyn"
+  },
+  {
+    "elevation": 30,
+    "timezone_id": "America/Chicago",
+    "name": "Houston",
+    "population": "2,296,224",
+    "identifier": "houston"
+  },
+  {
+    "elevation": 13,
+    "timezone_id": "America/New_York",
+    "name": "Queens",
+    "population": "2,272,771",
+    "identifier": "queens"
+  },
+  {
+    "elevation": 1136,
+    "timezone_id": "America/Sao_Paulo",
+    "name": "Brasilia",
+    "population": "2,207,718",
+    "identifier": "brasilia"
+  },
+  {
+    "elevation": 9,
+    "timezone_id": "America/Santo_Domingo",
+    "name": "Santo Domingo",
+    "population": "2,201,941",
+    "identifier": "santo domingo"
+  },
+  {
+    "elevation": 23,
+    "timezone_id": "Asia/Tokyo",
+    "name": "Nagoya",
+    "population": "2,191,279",
+    "identifier": "nagoya"
+  },
+  {
+    "elevation": 27,
+    "timezone_id": "Australia/Brisbane",
+    "name": "Brisbane",
+    "population": "2,189,878",
+    "identifier": "brisbane"
+  },
+  {
+    "elevation": 41,
+    "timezone_id": "America/Havana",
+    "name": "Havana",
+    "population": "2,163,824",
+    "identifier": "havana"
+  },
+  {
+    "elevation": 42,
+    "timezone_id": "Europe/Paris",
+    "name": "Paris",
+    "population": "2,138,551",
+    "identifier": "paris"
+  },
+  {
+    "elevation": 1767,
+    "timezone_id": "Africa/Johannesburg",
+    "name": "Johannesburg",
+    "population": "2,026,469",
+    "identifier": "johannesburg"
+  },
+  {
+    "elevation": 787,
+    "timezone_id": "Asia/Almaty",
+    "name": "Almaty",
+    "population": "2,000,900",
+    "identifier": "almaty"
+  },
+  {
+    "elevation": 424,
+    "timezone_id": "Asia/Tashkent",
+    "name": "Tashkent",
+    "population": "1,978,028",
+    "identifier": "tashkent"
+  },
+  {
+    "elevation": 113,
+    "timezone_id": "Africa/Algiers",
+    "name": "Algiers",
+    "population": "1,977,663",
+    "identifier": "algiers"
+  },
+  {
+    "elevation": 381,
+    "timezone_id": "Africa/Khartoum",
+    "name": "Khartoum",
+    "population": "1,974,647",
+    "identifier": "khartoum"
+  },
+  {
+    "elevation": 33,
+    "timezone_id": "Africa/Accra",
+    "name": "Accra",
+    "population": "1,963,264",
+    "identifier": "accra"
+  },
+  {
+    "elevation": 1,
+    "timezone_id": "America/Guayaquil",
+    "name": "Guayaquil",
+    "population": "1,952,029",
+    "identifier": "guayaquil"
+  },
+  {
+    "elevation": 2253,
+    "timezone_id": "Asia/Aden",
+    "name": "Sanaa",
+    "population": "1,937,451",
+    "identifier": "sanaa"
+  },
+  {
+    "elevation": 40,
+    "timezone_id": "Asia/Beirut",
+    "name": "Beirut",
+    "population": "1,916,100",
+    "identifier": "beirut"
+  },
+  {
+    "elevation": 46,
+    "timezone_id": "Australia/Perth",
+    "name": "Perth",
+    "population": "1,896,548",
+    "identifier": "perth"
+  },
+  {
+    "elevation": 26,
+    "timezone_id": "Asia/Tokyo",
+    "name": "Sapporo",
+    "population": "1,883,027",
+    "identifier": "sapporo"
+  },
+  {
+    "elevation": 83,
+    "timezone_id": "Europe/Bucharest",
+    "name": "Bucharest",
+    "population": "1,877,155",
+    "identifier": "bucharest"
+  },
+  {
+    "elevation": 6,
+    "timezone_id": "Africa/Conakry",
+    "name": "Camayenne",
+    "population": "1,871,242",
+    "identifier": "camayenne"
+  },
+  {
+    "elevation": 13,
+    "timezone_id": "Africa/Conakry",
+    "name": "Conakry",
+    "population": "1,767,200",
+    "identifier": "conakry"
+  },
+  {
+    "elevation": 222,
+    "timezone_id": "Europe/Minsk",
+    "name": "Minsk",
+    "population": "1,742,124",
+    "identifier": "minsk"
+  },
+  {
+    "elevation": 75,
+    "timezone_id": "Europe/Budapest",
+    "name": "Budapest",
+    "population": "1,741,041",
+    "identifier": "budapest"
+  },
+  {
+    "elevation": 2,
+    "timezone_id": "Europe/Berlin",
+    "name": "Hamburg",
+    "population": "1,739,117",
+    "identifier": "hamburg"
+  },
+  {
+    "elevation": 113,
+    "timezone_id": "Europe/Warsaw",
+    "name": "Warsaw",
+    "population": "1,702,139",
+    "identifier": "warsaw"
+  },
+  {
+    "elevation": 1632,
+    "timezone_id": "Africa/Johannesburg",
+    "name": "Soweto",
+    "population": "1,695,047",
+    "identifier": "soweto"
+  },
+  {
+    "elevation": 193,
+    "timezone_id": "Europe/Vienna",
+    "name": "Vienna",
+    "population": "1,691,468",
+    "identifier": "vienna"
+  },
+  {
+    "elevation": 46,
+    "timezone_id": "Africa/Casablanca",
+    "name": "Rabat",
+    "population": "1,655,753",
+    "identifier": "rabat"
+  },
+  {
+    "elevation": 47,
+    "timezone_id": "Europe/Madrid",
+    "name": "Barcelona",
+    "population": "1,621,537",
+    "identifier": "barcelona"
+  },
+  {
+    "elevation": 1332,
+    "timezone_id": "Africa/Johannesburg",
+    "name": "Pretoria",
+    "population": "1,619,438",
+    "identifier": "pretoria"
+  },
+  {
+    "elevation": 401,
+    "timezone_id": "Asia/Damascus",
+    "name": "Aleppo",
+    "population": "1,602,264",
+    "identifier": "aleppo"
+  },
+  {
+    "elevation": 13,
+    "timezone_id": "Asia/Manila",
+    "name": "Manila",
+    "population": "1,600,000",
+    "identifier": "manila"
+  },
+  {
+    "elevation": 216,
+    "timezone_id": "America/Toronto",
+    "name": "Montreal",
+    "population": "1,600,000",
+    "identifier": "montreal"
+  },
+  {
+    "elevation": 626,
+    "timezone_id": "Africa/Lagos",
+    "name": "Kaduna",
+    "population": "1,582,102",
+    "identifier": "kaduna"
+  },
+  {
+    "elevation": 20,
+    "timezone_id": "Asia/Phnom_Penh",
+    "name": "Phnom Penh",
+    "population": "1,573,544",
+    "identifier": "phnom penh"
+  },
+  {
+    "elevation": 701,
+    "timezone_id": "Asia/Damascus",
+    "name": "Damascus",
+    "population": "1,569,394",
+    "identifier": "damascus"
+  },
+  {
+    "elevation": 40,
+    "timezone_id": "America/New_York",
+    "name": "Philadelphia",
+    "population": "1,567,442",
+    "identifier": "philadelphia"
+  },
+  {
+    "elevation": 366,
+    "timezone_id": "America/Phoenix",
+    "name": "Phoenix",
+    "population": "1,563,025",
+    "identifier": "phoenix"
+  },
+  {
+    "elevation": 1578,
+    "timezone_id": "Asia/Tehran",
+    "name": "Isfahan",
+    "population": "1,547,164",
+    "identifier": "isfahan"
+  },
+  {
+    "elevation": 1494,
+    "timezone_id": "Africa/Harare",
+    "name": "Harare",
+    "population": "1,542,813",
+    "identifier": "harare"
+  },
+  {
+    "elevation": 35,
+    "timezone_id": "Asia/Tokyo",
+    "name": "Kobe",
+    "population": "1,528,478",
+    "identifier": "kobe"
+  },
+  {
+    "elevation": 12,
+    "timezone_id": "Europe/Stockholm",
+    "name": "Stockholm",
+    "population": "1,515,017",
+    "identifier": "stockholm"
+  },
+  {
+    "elevation": 38,
+    "timezone_id": "America/New_York",
+    "name": "Manhattan",
+    "population": "1,487,536",
+    "identifier": "manhattan"
+  },
+  {
+    "elevation": 107,
+    "timezone_id": "America/Asuncion",
+    "name": "Asuncion",
+    "population": "1,482,200",
+    "identifier": "asuncion"
+  },
+  {
+    "elevation": 8,
+    "timezone_id": "America/Recife",
+    "name": "Recife",
+    "population": "1,478,098",
+    "identifier": "recife"
+  },
+  {
+    "elevation": 202,
+    "timezone_id": "America/Chicago",
+    "name": "San Antonio",
+    "population": "1,469,845",
+    "identifier": "san antonio"
+  },
+  {
+    "elevation": 270,
+    "timezone_id": "Africa/Accra",
+    "name": "Kumasi",
+    "population": "1,468,609",
+    "identifier": "kumasi"
+  },
+  {
+    "elevation": 1,
+    "timezone_id": "Asia/Kuala_Lumpur",
+    "name": "Kota Bharu",
+    "population": "1,459,994",
+    "identifier": "kota bharu"
+  },
+  {
+    "elevation": 50,
+    "timezone_id": "Asia/Tokyo",
+    "name": "Kyoto",
+    "population": "1,459,640",
+    "identifier": "kyoto"
+  },
+  {
+    "elevation": 56,
+    "timezone_id": "Asia/Kuala_Lumpur",
+    "name": "Kuala Lumpur",
+    "population": "1,453,975",
+    "identifier": "kuala lumpur"
+  },
+  {
+    "elevation": 1341,
+    "timezone_id": "Asia/Tehran",
+    "name": "Karaj",
+    "population": "1,448,075",
+    "identifier": "karaj"
+  },
+  {
+    "elevation": 1296,
+    "timezone_id": "Asia/Kathmandu",
+    "name": "Kathmandu",
+    "population": "1,442,271",
+    "identifier": "kathmandu"
+  },
+  {
+    "elevation": 10,
+    "timezone_id": "Asia/Ho_Chi_Minh",
+    "name": "Hanoi",
+    "population": "1,431,270",
+    "identifier": "hanoi"
+  },
+  {
+    "elevation": 113,
+    "timezone_id": "Europe/Kiev",
+    "name": "Kharkiv",
+    "population": "1,430,885",
+    "identifier": "kharkiv"
+  },
+  {
+    "elevation": 395,
+    "timezone_id": "America/Argentina/Cordoba",
+    "name": "Cordoba",
+    "population": "1,428,214",
+    "identifier": "cordoba"
+  },
+  {
+    "elevation": 1396,
+    "timezone_id": "Asia/Tehran",
+    "name": "Tabriz",
+    "population": "1,424,641",
+    "identifier": "tabriz"
+  },
+  {
+    "elevation": 164,
+    "timezone_id": "Asia/Novosibirsk",
+    "name": "Novosibirsk",
+    "population": "1,419,007",
+    "identifier": "novosibirsk"
+  },
+  {
+    "elevation": 15,
+    "timezone_id": "America/Belem",
+    "name": "Belem",
+    "population": "1,407,737",
+    "identifier": "belem"
+  },
+  {
+    "elevation": 2854,
+    "timezone_id": "America/Guayaquil",
+    "name": "Quito",
+    "population": "1,399,814",
+    "identifier": "quito"
+  },
+  {
+    "elevation": 15,
+    "timezone_id": "America/Los_Angeles",
+    "name": "San Diego",
+    "population": "1,394,928",
+    "identifier": "san diego"
+  },
+  {
+    "elevation": 3,
+    "timezone_id": "Asia/Tokyo",
+    "name": "Fukuoka",
+    "population": "1,392,289",
+    "identifier": "fukuoka"
+  },
+  {
+    "elevation": 1274,
+    "timezone_id": "Indian/Antananarivo",
+    "name": "Antananarivo",
+    "population": "1,391,433",
+    "identifier": "antananarivo"
+  },
+  {
+    "elevation": 19,
+    "timezone_id": "America/New_York",
+    "name": "The Bronx",
+    "population": "1,385,108",
+    "identifier": "the bronx"
+  },
+  {
+    "elevation": 1260,
+    "timezone_id": "Africa/Lubumbashi",
+    "name": "Lubumbashi",
+    "population": "1,373,770",
+    "identifier": "lubumbashi"
+  },
+  {
+    "elevation": 433,
+    "timezone_id": "America/La_Paz",
+    "name": "Santa Cruz de la Sierra",
+    "population": "1,364,389",
+    "identifier": "santa cruz de la sierra"
+  },
+  {
+    "elevation": 1223,
+    "timezone_id": "Africa/Kampala",
+    "name": "Kampala",
+    "population": "1,353,189",
+    "identifier": "kampala"
+  },
+  {
+    "elevation": 255,
+    "timezone_id": "Asia/Yekaterinburg",
+    "name": "Yekaterinburg",
+    "population": "1,349,772",
+    "identifier": "yekaterinburg"
+  },
+  {
+    "elevation": 19,
+    "timezone_id": "Africa/Douala",
+    "name": "Douala",
+    "population": "1,338,082",
+    "identifier": "douala"
+  },
+  {
+    "elevation": 6,
+    "timezone_id": "Asia/Dubai",
+    "name": "Sharjah",
+    "population": "1,324,473",
+    "identifier": "sharjah"
+  },
+  {
+    "elevation": 333,
+    "timezone_id": "Asia/Riyadh",
+    "name": "Mecca",
+    "population": "1,323,624",
+    "identifier": "mecca"
+  },
+  {
+    "elevation": 6,
+    "timezone_id": "Asia/Makassar",
+    "name": "Makassar",
+    "population": "1,321,717",
+    "identifier": "makassar"
+  },
+  {
+    "elevation": 1124,
+    "timezone_id": "America/Ojinaga",
+    "name": "Juarez",
+    "population": "1,321,004",
+    "identifier": "juarez"
+  },
+  {
+    "elevation": 1,
+    "timezone_id": "Asia/Tokyo",
+    "name": "Kawasaki",
+    "population": "1,306,785",
+    "identifier": "kawasaki"
+  },
+  {
+    "elevation": 97,
+    "timezone_id": "America/Tijuana",
+    "name": "Tijuana",
+    "population": "1,300,983",
+    "identifier": "tijuana"
+  },
+  {
+    "elevation": 139,
+    "timezone_id": "America/Chicago",
+    "name": "Dallas",
+    "population": "1,300,092",
+    "identifier": "dallas"
+  },
+  {
+    "elevation": 603,
+    "timezone_id": "Asia/Riyadh",
+    "name": "Medina",
+    "population": "1,300,000",
+    "identifier": "medina"
+  },
+  {
+    "elevation": 726,
+    "timezone_id": "Africa/Douala",
+    "name": "Yaounde",
+    "population": "1,299,369",
+    "identifier": "yaounde"
+  },
+  {
+    "elevation": 338,
+    "timezone_id": "Africa/Bamako",
+    "name": "Bamako",
+    "population": "1,297,281",
+    "identifier": "bamako"
+  },
+  {
+    "elevation": 284,
+    "timezone_id": "Africa/Brazzaville",
+    "name": "Brazzaville",
+    "population": "1,284,609",
+    "identifier": "brazzaville"
+  },
+  {
+    "elevation": 141,
+    "timezone_id": "Europe/Moscow",
+    "name": "Nizhniy Novgorod",
+    "population": "1,284,164",
+    "identifier": "nizhniy novgorod"
+  },
+  {
+    "elevation": 757,
+    "timezone_id": "Asia/Amman",
+    "name": "Amman",
+    "population": "1,275,857",
+    "identifier": "amman"
+  },
+  {
+    "elevation": 120,
+    "timezone_id": "Europe/Belgrade",
+    "name": "Belgrade",
+    "population": "1,273,651",
+    "identifier": "belgrade"
+  },
+  {
+    "elevation": 34,
+    "timezone_id": "America/Montevideo",
+    "name": "Montevideo",
+    "population": "1,270,737",
+    "identifier": "montevideo"
+  },
+  {
+    "elevation": 1277,
+    "timezone_id": "Africa/Lusaka",
+    "name": "Lusaka",
+    "population": "1,267,440",
+    "identifier": "lusaka"
+  },
+  {
+    "elevation": 524,
+    "timezone_id": "Europe/Berlin",
+    "name": "Munich",
+    "population": "1,260,391",
+    "identifier": "munich"
+  },
+  {
+    "elevation": 1545,
+    "timezone_id": "Asia/Tehran",
+    "name": "Shiraz",
+    "population": "1,249,942",
+    "identifier": "shiraz"
+  },
+  {
+    "elevation": 127,
+    "timezone_id": "Europe/Rome",
+    "name": "Milan",
+    "population": "1,236,837",
+    "identifier": "milan"
+  },
+  {
+    "elevation": 53,
+    "timezone_id": "America/Port-au-Prince",
+    "name": "Port-au-Prince",
+    "population": "1,234,742",
+    "identifier": "port-au-prince"
+  },
+  {
+    "elevation": 56,
+    "timezone_id": "Australia/Adelaide",
+    "name": "Adelaide",
+    "population": "1,225,235",
+    "identifier": "adelaide"
+  },
+  {
+    "elevation": 391,
+    "timezone_id": "Africa/Khartoum",
+    "name": "Omdurman",
+    "population": "1,200,000",
+    "identifier": "omdurman"
+  },
+  {
+    "elevation": 16,
+    "timezone_id": "Asia/Tokyo",
+    "name": "Saitama",
+    "population": "1,193,350",
+    "identifier": "saitama"
+  },
+  {
+    "elevation": 70,
+    "timezone_id": "Africa/Maputo",
+    "name": "Maputo",
+    "population": "1,191,613",
+    "identifier": "maputo"
+  },
+  {
+    "elevation": 202,
+    "timezone_id": "Europe/Prague",
+    "name": "Prague",
+    "population": "1,165,581",
+    "identifier": "prague"
+  },
+  {
+    "elevation": 14,
+    "timezone_id": "Europe/Copenhagen",
+    "name": "Copenhagen",
+    "population": "1,153,615",
+    "identifier": "copenhagen"
+  },
+  {
+    "elevation": 562,
+    "timezone_id": "Europe/Sofia",
+    "name": "Sofia",
+    "population": "1,152,556",
+    "identifier": "sofia"
+  },
+  {
+    "elevation": 51,
+    "timezone_id": "Asia/Beirut",
+    "name": "Tripoli",
+    "population": "229,398",
+    "identifier": "tripoli"
+  },
+  {
+    "elevation": 16,
+    "timezone_id": "Africa/Lagos",
+    "name": "Port Harcourt",
+    "population": "1,148,665",
+    "identifier": "port harcourt"
+  },
+  {
+    "elevation": 16,
+    "timezone_id": "Asia/Tokyo",
+    "name": "Hiroshima",
+    "population": "1,143,841",
+    "identifier": "hiroshima"
+  },
+  {
+    "elevation": 543,
+    "timezone_id": "America/Monterrey",
+    "name": "Monterrey",
+    "population": "1,135,512",
+    "identifier": "monterrey"
+  },
+  {
+    "elevation": 117,
+    "timezone_id": "Europe/Samara",
+    "name": "Samara",
+    "population": "1,134,730",
+    "identifier": "samara"
+  },
+  {
+    "elevation": 90,
+    "timezone_id": "Asia/Omsk",
+    "name": "Omsk",
+    "population": "1,129,281",
+    "identifier": "omsk"
+  },
+  {
+    "elevation": 88,
+    "timezone_id": "Africa/Lagos",
+    "name": "Benin City",
+    "population": "1,125,058",
+    "identifier": "benin city"
+  },
+  {
+    "elevation": -23,
+    "timezone_id": "Asia/Baku",
+    "name": "Baku",
+    "population": "1,116,513",
+    "identifier": "baku"
+  },
+  {
+    "elevation": 325,
+    "timezone_id": "Africa/Lagos",
+    "name": "Maiduguri",
+    "population": "1,112,449",
+    "identifier": "maiduguri"
+  },
+  {
+    "elevation": 61,
+    "timezone_id": "Europe/Moscow",
+    "name": "Kazan",
+    "population": "1,104,738",
+    "identifier": "kazan"
+  },
+  {
+    "elevation": 994,
+    "timezone_id": "Asia/Yerevan",
+    "name": "Yerevan",
+    "population": "1,093,485",
+    "identifier": "yerevan"
+  },
+  {
+    "elevation": 299,
+    "timezone_id": "Africa/Ouagadougou",
+    "name": "Ouagadougou",
+    "population": "1,086,505",
+    "identifier": "ouagadougou"
+  },
+  {
+    "elevation": 74,
+    "timezone_id": "Europe/Moscow",
+    "name": "Rostov-na-Donu",
+    "population": "1,074,482",
+    "identifier": "rostov-na-donu"
+  },
+  {
+    "elevation": 219,
+    "timezone_id": "Asia/Yekaterinburg",
+    "name": "Chelyabinsk",
+    "population": "1,062,919",
+    "identifier": "chelyabinsk"
+  },
+  {
+    "elevation": 491,
+    "timezone_id": "Asia/Tbilisi",
+    "name": "Tbilisi",
+    "population": "1,049,498",
+    "identifier": "tbilisi"
+  },
+  {
+    "elevation": 158,
+    "timezone_id": "Asia/Yekaterinburg",
+    "name": "Ufa",
+    "population": "1,033,338",
+    "identifier": "ufa"
+  },
+  {
+    "elevation": 1161,
+    "timezone_id": "America/Costa_Rica",
+    "name": "San Jose",
+    "population": "335,007",
+    "identifier": "san jose"
+  },
+  {
+    "elevation": 17,
+    "timezone_id": "Europe/Dublin",
+    "name": "Dublin",
+    "population": "1,024,027",
+    "identifier": "dublin"
+  },
+  {
+    "elevation": 1042,
+    "timezone_id": "America/Edmonton",
+    "name": "Calgary",
+    "population": "1,019,942",
+    "identifier": "calgary"
+  },
+  {
+    "elevation": 28,
+    "timezone_id": "Europe/Brussels",
+    "name": "Brussels",
+    "population": "1,019,022",
+    "identifier": "brussels"
+  },
+  {
+    "elevation": 65,
+    "timezone_id": "Europe/Volgograd",
+    "name": "Volgograd",
+    "population": "1,011,417",
+    "identifier": "volgograd"
+  },
+  {
+    "elevation": 58,
+    "timezone_id": "Europe/Kiev",
+    "name": "Odessa",
+    "population": "1,001,558",
+    "identifier": "odessa"
+  },
+  {
+    "elevation": 1508,
+    "timezone_id": "America/Guatemala",
+    "name": "Guatemala City",
+    "population": "994,938",
+    "identifier": "guatemala city"
+  },
+  {
+    "elevation": 149,
+    "timezone_id": "Europe/London",
+    "name": "Birmingham",
+    "population": "984,333",
+    "identifier": "birmingham"
+  },
+  {
+    "elevation": 149,
+    "timezone_id": "Asia/Yekaterinburg",
+    "name": "Perm",
+    "population": "982,419",
+    "identifier": "perm"
+  },
+  {
+    "elevation": 644,
+    "timezone_id": "Africa/Lagos",
+    "name": "Zaria",
+    "population": "975,153",
+    "identifier": "zaria"
+  },
+  {
+    "elevation": 75,
+    "timezone_id": "Africa/Johannesburg",
+    "name": "Port Elizabeth",
+    "population": "967,677",
+    "identifier": "port elizabeth"
+  },
+  {
+    "elevation": 406,
+    "timezone_id": "Africa/Casablanca",
+    "name": "Fes",
+    "population": "964,891",
+    "identifier": "fes"
+  },
+  {
+    "elevation": 58,
+    "timezone_id": "Europe/Berlin",
+    "name": "Cologne",
+    "population": "963,395",
+    "identifier": "cologne"
+  },
+  {
+    "elevation": 14,
+    "timezone_id": "Europe/Rome",
+    "name": "Naples",
+    "population": "959,470",
+    "identifier": "naples"
+  },
+  {
+    "elevation": 11,
+    "timezone_id": "America/Maceio",
+    "name": "Maceio",
+    "population": "954,991",
+    "identifier": "maceio"
+  },
+  {
+    "elevation": 32,
+    "timezone_id": "Africa/Monrovia",
+    "name": "Monrovia",
+    "population": "939,524",
+    "identifier": "monrovia"
+  },
+  {
+    "elevation": 65,
+    "timezone_id": "America/Jamaica",
+    "name": "Kingston",
+    "population": "937,700",
+    "identifier": "kingston"
+  },
+  {
+    "elevation": 165,
+    "timezone_id": "America/Chicago",
+    "name": "Austin",
+    "population": "931,830",
+    "identifier": "austin"
+  },
+  {
+    "elevation": 140,
+    "timezone_id": "Asia/Krasnoyarsk",
+    "name": "Krasnoyarsk",
+    "population": "927,200",
+    "identifier": "krasnoyarsk"
+  },
+  {
+    "elevation": 34,
+    "timezone_id": "Africa/Casablanca",
+    "name": "Sale",
+    "population": "903,485",
+    "identifier": "sale"
+  },
+  {
+    "elevation": 935,
+    "timezone_id": "Asia/Tehran",
+    "name": "Qom",
+    "population": "900,000",
+    "identifier": "qom"
+  },
+  {
+    "elevation": 767,
+    "timezone_id": "Asia/Bishkek",
+    "name": "Bishkek",
+    "population": "900,000",
+    "identifier": "bishkek"
+  },
+  {
+    "elevation": 105,
+    "timezone_id": "Africa/Abidjan",
+    "name": "Abobo",
+    "population": "900,000",
+    "identifier": "abobo"
+  },
+  {
+    "elevation": 64,
+    "timezone_id": "Africa/Lagos",
+    "name": "Aba",
+    "population": "897,560",
+    "identifier": "aba"
+  },
+  {
+    "elevation": 746,
+    "timezone_id": "America/Argentina/Mendoza",
+    "name": "Mendoza",
+    "population": "876,884",
+    "identifier": "mendoza"
+  },
+  {
+    "elevation": 621,
+    "timezone_id": "Africa/Lubumbashi",
+    "name": "Mbuji-Mayi",
+    "population": "874,761",
+    "identifier": "mbuji-mayi"
+  },
+  {
+    "elevation": 17,
+    "timezone_id": "Africa/Dakar",
+    "name": "Pikine",
+    "population": "874,062",
+    "identifier": "pikine"
+  },
+  {
+    "elevation": 245,
+    "timezone_id": "Europe/Rome",
+    "name": "Turin",
+    "population": "870,456",
+    "identifier": "turin"
+  },
+  {
+    "population": "864,816",
+    "elevation": 28,
+    "timezone_id": "America/Los_Angeles",
+    "name": "San Francisco",
+    "aliases": [
+      "San Fran"
+    ],
+    "identifier": "san francisco"
+  },
+  {
+    "elevation": 30,
+    "timezone_id": "Europe/London",
+    "name": "Liverpool",
+    "population": "864,122",
+    "identifier": "liverpool"
+  },
+  {
+    "elevation": 72,
+    "timezone_id": "Europe/Saratov",
+    "name": "Saratov",
+    "population": "863,725",
+    "identifier": "saratov"
+  },
+  {
+    "elevation": 944,
+    "timezone_id": "America/Tegucigalpa",
+    "name": "Tegucigalpa",
+    "population": "850,848",
+    "identifier": "tegucigalpa"
+  },
+  {
+    "elevation": 156,
+    "timezone_id": "Europe/Moscow",
+    "name": "Voronezh",
+    "population": "848,752",
+    "identifier": "voronezh"
+  },
+  {
+    "elevation": 1284,
+    "timezone_id": "Asia/Ulaanbaatar",
+    "name": "Ulan Bator",
+    "population": "844,818",
+    "identifier": "ulan bator"
+  },
+  {
+    "elevation": 23,
+    "timezone_id": "Asia/Tehran",
+    "name": "Ahvaz",
+    "population": "841,145",
+    "identifier": "ahvaz"
+  },
+  {
+    "elevation": 457,
+    "timezone_id": "Africa/Casablanca",
+    "name": "Marrakesh",
+    "population": "839,296",
+    "identifier": "marrakesh"
+  },
+  {
+    "population": "834,881",
+    "elevation": 33,
+    "timezone_id": "Asia/Makassar",
+    "name": "Denpasar",
+    "aliases": [
+      "Bali"
+    ],
+    "identifier": "denpasar"
+  },
+  {
+    "elevation": 203,
+    "timezone_id": "America/Chicago",
+    "name": "Fort Worth",
+    "population": "833,319",
+    "identifier": "fort worth"
+  },
+  {
+    "elevation": 248,
+    "timezone_id": "America/Indiana/Indianapolis",
+    "name": "Indianapolis",
+    "population": "829,718",
+    "identifier": "indianapolis"
+  },
+  {
+    "elevation": 1186,
+    "timezone_id": "Africa/Lagos",
+    "name": "Jos",
+    "population": "816,824",
+    "identifier": "jos"
+  },
+  {
+    "elevation": 23,
+    "timezone_id": "Europe/Madrid",
+    "name": "Valencia",
+    "population": "814,208",
+    "identifier": "valencia"
+  },
+  {
+    "elevation": 320,
+    "timezone_id": "Africa/Lagos",
+    "name": "Ilorin",
+    "population": "814,192",
+    "identifier": "ilorin"
+  },
+  {
+    "elevation": 47,
+    "timezone_id": "America/Mazatlan",
+    "name": "La Paz",
+    "population": "215,178",
+    "identifier": "la paz"
+  },
+  {
+    "elevation": 71,
+    "timezone_id": "America/Toronto",
+    "name": "Ottawa",
+    "population": "812,129",
+    "identifier": "ottawa"
+  },
+  {
+    "elevation": 21,
+    "timezone_id": "Africa/Freetown",
+    "name": "Freetown",
+    "population": "802,639",
+    "identifier": "freetown"
+  },
+  {
+    "elevation": 786,
+    "timezone_id": "Asia/Jerusalem",
+    "name": "Jerusalem",
+    "population": "801,000",
+    "identifier": "jerusalem"
+  },
+  {
+    "elevation": 14,
+    "timezone_id": "Asia/Muscat",
+    "name": "Muscat",
+    "population": "797,000",
+    "identifier": "muscat"
+  },
+  {
+    "elevation": 28,
+    "timezone_id": "Europe/Paris",
+    "name": "Marseille",
+    "population": "794,811",
+    "identifier": "marseille"
+  },
+  {
+    "elevation": 2010,
+    "timezone_id": "Asia/Tehran",
+    "name": "Pasragad Branch",
+    "population": "787,878",
+    "identifier": "pasragad branch"
+  },
+  {
+    "elevation": 5,
+    "timezone_id": "Africa/Algiers",
+    "name": "Boumerdas",
+    "population": "786,499",
+    "identifier": "boumerdas"
+  },
+  {
+    "elevation": 452,
+    "timezone_id": "America/Argentina/Tucuman",
+    "name": "San Miguel de Tucuman",
+    "population": "781,023",
+    "identifier": "san miguel de tucuman"
+  },
+  {
+    "elevation": 14,
+    "timezone_id": "America/Merida",
+    "name": "Merida",
+    "population": "777,615",
+    "identifier": "merida"
+  },
+  {
+    "elevation": 206,
+    "timezone_id": "Africa/Niamey",
+    "name": "Niamey",
+    "population": "774,235",
+    "identifier": "niamey"
+  },
+  {
+    "elevation": 1302,
+    "timezone_id": "Asia/Tehran",
+    "name": "Kahriz",
+    "population": "766,706",
+    "identifier": "kahriz"
+  },
+  {
+    "elevation": 219,
+    "timezone_id": "Europe/Warsaw",
+    "name": "Krakow",
+    "population": "755,050",
+    "identifier": "krakow"
+  },
+  {
+    "elevation": 11,
+    "timezone_id": "Asia/Ho_Chi_Minh",
+    "name": "Da Nang",
+    "population": "752,493",
+    "identifier": "da nang"
+  },
+  {
+    "elevation": 636,
+    "timezone_id": "Africa/Johannesburg",
+    "name": "Pietermaritzburg",
+    "population": "750,845",
+    "identifier": "pietermaritzburg"
+  },
+  {
+    "elevation": 64,
+    "timezone_id": "Africa/Lome",
+    "name": "Lome",
+    "population": "749,700",
+    "identifier": "lome"
+  },
+  {
+    "elevation": 1542,
+    "timezone_id": "Africa/Kigali",
+    "name": "Kigali",
+    "population": "745,261",
+    "identifier": "kigali"
+  },
+  {
+    "elevation": 6,
+    "timezone_id": "Europe/Riga",
+    "name": "Riga",
+    "population": "742,572",
+    "identifier": "riga"
+  },
+  {
+    "elevation": 13,
+    "timezone_id": "Europe/Amsterdam",
+    "name": "Amsterdam",
+    "population": "741,636",
+    "identifier": "amsterdam"
+  },
+  {
+    "elevation": 298,
+    "timezone_id": "Africa/Lagos",
+    "name": "Oyo",
+    "population": "736,072",
+    "identifier": "oyo"
+  },
+  {
+    "elevation": 46,
+    "timezone_id": "Europe/London",
+    "name": "Nottingham",
+    "population": "729,977",
+    "identifier": "nottingham"
+  },
+  {
+    "elevation": 592,
+    "timezone_id": "America/Campo_Grande",
+    "name": "Campo Grande",
+    "population": "729,151",
+    "identifier": "campo grande"
+  },
+  {
+    "elevation": 219,
+    "timezone_id": "Asia/Ashgabat",
+    "name": "Ashgabat",
+    "population": "727,700",
+    "identifier": "ashgabat"
+  },
+  {
+    "elevation": 299,
+    "timezone_id": "Africa/Ndjamena",
+    "name": "N'Djamena",
+    "population": "721,081",
+    "identifier": "n'djamena"
+  },
+  {
+    "elevation": 284,
+    "timezone_id": "Europe/Kiev",
+    "name": "Lviv",
+    "population": "717,803",
+    "identifier": "lviv"
+  },
+  {
+    "elevation": 212,
+    "timezone_id": "America/Hermosillo",
+    "name": "Hermosillo",
+    "population": "715,061",
+    "identifier": "hermosillo"
+  },
+  {
+    "elevation": 610,
+    "timezone_id": "America/Edmonton",
+    "name": "Edmonton",
+    "population": "712,391",
+    "identifier": "edmonton"
+  },
+  {
+    "elevation": 1348,
+    "timezone_id": "Africa/Harare",
+    "name": "Bulawayo",
+    "population": "699,385",
+    "identifier": "bulawayo"
+  },
+  {
+    "elevation": 135,
+    "timezone_id": "Europe/Zagreb",
+    "name": "Zagreb",
+    "population": "698,966",
+    "identifier": "zagreb"
+  },
+  {
+    "elevation": 31,
+    "timezone_id": "Africa/Casablanca",
+    "name": "Agadir",
+    "population": "698,310",
+    "identifier": "agadir"
+  },
+  {
+    "elevation": 509,
+    "timezone_id": "Europe/Sarajevo",
+    "name": "Sarajevo",
+    "population": "696,731",
+    "identifier": "sarajevo"
+  },
+  {
+    "elevation": 192,
+    "timezone_id": "Africa/Lagos",
+    "name": "Enugu",
+    "population": "688,862",
+    "identifier": "enugu"
+  },
+  {
+    "elevation": 20,
+    "timezone_id": "Africa/Casablanca",
+    "name": "Tangier",
+    "population": "688,356",
+    "identifier": "tangier"
+  },
+  {
+    "elevation": 75,
+    "timezone_id": "Europe/London",
+    "name": "Sheffield",
+    "population": "685,368",
+    "identifier": "sheffield"
+  },
+  {
+    "elevation": 56,
+    "timezone_id": "America/Los_Angeles",
+    "name": "Seattle",
+    "population": "684,451",
+    "identifier": "seattle"
+  },
+  {
+    "elevation": 1636,
+    "timezone_id": "America/Denver",
+    "name": "Denver",
+    "population": "682,545",
+    "identifier": "denver"
+  },
+  {
+    "elevation": 1137,
+    "timezone_id": "America/Denver",
+    "name": "El Paso",
+    "population": "681,124",
+    "identifier": "el paso"
+  },
+  {
+    "elevation": 767,
+    "timezone_id": "Asia/Dushanbe",
+    "name": "Dushanbe",
+    "population": "679,400",
+    "identifier": "dushanbe"
+  },
+  {
+    "elevation": 192,
+    "timezone_id": "America/Detroit",
+    "name": "Detroit",
+    "population": "677,116",
+    "identifier": "detroit"
+  },
+  {
+    "elevation": 95,
+    "timezone_id": "America/Mazatlan",
+    "name": "Culiacan",
+    "population": "675,773",
+    "identifier": "culiacan"
+  },
+  {
+    "elevation": 42,
+    "timezone_id": "Africa/Maputo",
+    "name": "Matola",
+    "population": "675,422",
+    "identifier": "matola"
+  },
+  {
+    "elevation": 38,
+    "timezone_id": "America/New_York",
+    "name": "Boston",
+    "population": "667,137",
+    "identifier": "boston"
+  },
+  {
+    "elevation": 126,
+    "timezone_id": "Europe/Athens",
+    "name": "Athens",
+    "population": "664,046",
+    "identifier": "athens"
+  },
+  {
+    "elevation": 10,
+    "timezone_id": "Africa/Nouakchott",
+    "name": "Nouakchott",
+    "population": "661,400",
+    "identifier": "nouakchott"
+  },
+  {
+    "elevation": 12,
+    "timezone_id": "Africa/Brazzaville",
+    "name": "Pointe-Noire",
+    "population": "659,084",
+    "identifier": "pointe-noire"
+  },
+  {
+    "elevation": 84,
+    "timezone_id": "America/Chicago",
+    "name": "Memphis",
+    "population": "655,770",
+    "identifier": "memphis"
+  },
+  {
+    "population": "650,000",
+    "elevation": 113,
+    "timezone_id": "Europe/Berlin",
+    "name": "Frankfurt am Main",
+    "aliases": [
+      "Frankfurt"
+    ],
+    "identifier": "frankfurt am main"
+  },
+  {
+    "elevation": 28,
+    "timezone_id": "Europe/Moscow",
+    "name": "Krasnodar",
+    "population": "649,851",
+    "identifier": "krasnodar"
+  },
+  {
+    "elevation": 46,
+    "timezone_id": "Europe/Rome",
+    "name": "Palermo",
+    "population": "648,260",
+    "identifier": "palermo"
+  },
+  {
+    "elevation": 1,
+    "timezone_id": "Asia/Colombo",
+    "name": "Colombo",
+    "population": "648,034",
+    "identifier": "colombo"
+  },
+  {
+    "elevation": 1056,
+    "timezone_id": "Africa/Blantyre",
+    "name": "Lilongwe",
+    "population": "646,750",
+    "identifier": "lilongwe"
+  },
+  {
+    "elevation": 118,
+    "timezone_id": "Africa/Algiers",
+    "name": "Oran",
+    "population": "645,984",
+    "identifier": "oran"
+  },
+  {
+    "elevation": 55,
+    "timezone_id": "Europe/Chisinau",
+    "name": "Chisinau",
+    "population": "635,994",
+    "identifier": "chisinau"
+  },
+  {
+    "elevation": 867,
+    "timezone_id": "Africa/Algiers",
+    "name": "Tebessa",
+    "population": "634,332",
+    "identifier": "tebessa"
+  },
+  {
+    "elevation": 15,
+    "timezone_id": "America/Los_Angeles",
+    "name": "Portland",
+    "population": "632,309",
+    "identifier": "portland"
+  },
+  {
+    "elevation": 245,
+    "timezone_id": "America/Winnipeg",
+    "name": "Winnipeg",
+    "population": "632,063",
+    "identifier": "winnipeg"
+  },
+  {
+    "elevation": 395,
+    "timezone_id": "America/Chicago",
+    "name": "Oklahoma City",
+    "population": "631,346",
+    "identifier": "oklahoma city"
+  },
+  {
+    "elevation": 11,
+    "timezone_id": "America/Cancun",
+    "name": "Cancun",
+    "population": "628,306",
+    "identifier": "cancun"
+  },
+  {
+    "elevation": 6,
+    "timezone_id": "Africa/Djibouti",
+    "name": "Djibouti",
+    "population": "623,891",
+    "identifier": "djibouti"
+  },
+  {
+    "elevation": 35,
+    "timezone_id": "America/New_York",
+    "name": "Baltimore",
+    "population": "621,849",
+    "identifier": "baltimore"
+  },
+  {
+    "elevation": 1392,
+    "timezone_id": "Asia/Tehran",
+    "name": "Kermanshah",
+    "population": "621,100",
+    "identifier": "kermanshah"
+  },
+  {
+    "elevation": 21,
+    "timezone_id": "Europe/London",
+    "name": "Bristol",
+    "population": "617,280",
+    "identifier": "bristol"
+  },
+  {
+    "elevation": 1641,
+    "timezone_id": "Africa/Johannesburg",
+    "name": "Benoni",
+    "population": "605,344",
+    "identifier": "benoni"
+  },
+  {
+    "elevation": 13,
+    "timezone_id": "Asia/Dubai",
+    "name": "Abu Dhabi",
+    "population": "603,492",
+    "identifier": "abu dhabi"
+  },
+  {
+    "elevation": 6,
+    "timezone_id": "America/New_York",
+    "name": "Washington",
+    "population": "601,723",
+    "identifier": "washington"
+  },
+  {
+    "elevation": 203,
+    "timezone_id": "America/Chicago",
+    "name": "Milwaukee",
+    "population": "600,155",
+    "identifier": "milwaukee"
+  },
+  {
+    "elevation": 70,
+    "timezone_id": "America/Vancouver",
+    "name": "Vancouver",
+    "population": "600,000",
+    "identifier": "vancouver"
+  },
+  {
+    "elevation": 189,
+    "timezone_id": "Asia/Barnaul",
+    "name": "Barnaul",
+    "population": "599,579",
+    "identifier": "barnaul"
+  },
+  {
+    "elevation": 9,
+    "timezone_id": "Europe/Amsterdam",
+    "name": "Rotterdam",
+    "population": "598,199",
+    "identifier": "rotterdam"
+  },
+  {
+    "elevation": 4,
+    "timezone_id": "Asia/Tehran",
+    "name": "Rasht",
+    "population": "594,590",
+    "identifier": "rasht"
+  },
+  {
+    "elevation": 64,
+    "timezone_id": "Africa/Lagos",
+    "name": "Abeokuta",
+    "population": "593,100",
+    "identifier": "abeokuta"
+  },
+  {
+    "elevation": 83,
+    "timezone_id": "Europe/Berlin",
+    "name": "Essen",
+    "population": "593,085",
+    "identifier": "essen"
+  },
+  {
+    "elevation": 40,
+    "timezone_id": "Europe/London",
+    "name": "Glasgow",
+    "population": "591,620",
+    "identifier": "glasgow"
+  },
+  {
+    "elevation": 12,
+    "timezone_id": "Australia/Brisbane",
+    "name": "Gold Coast",
+    "population": "591,473",
+    "identifier": "gold coast"
+  },
+  {
+    "elevation": 476,
+    "timezone_id": "Africa/Lagos",
+    "name": "Abuja",
+    "population": "590,400",
+    "identifier": "abuja"
+  },
+  {
+    "elevation": 252,
+    "timezone_id": "Europe/Berlin",
+    "name": "Stuttgart",
+    "population": "589,793",
+    "identifier": "stuttgart"
+  },
+  {
+    "elevation": 96,
+    "timezone_id": "Europe/Berlin",
+    "name": "Dortmund",
+    "population": "588,462",
+    "identifier": "dortmund"
+  },
+  {
+    "elevation": 40,
+    "timezone_id": "Asia/Vladivostok",
+    "name": "Vladivostok",
+    "population": "587,022",
+    "identifier": "vladivostok"
+  },
+  {
+    "elevation": 428,
+    "timezone_id": "Asia/Irkutsk",
+    "name": "Irkutsk",
+    "population": "586,695",
+    "identifier": "irkutsk"
+  },
+  {
+    "elevation": 1041,
+    "timezone_id": "Africa/Blantyre",
+    "name": "Blantyre",
+    "population": "584,877",
+    "identifier": "blantyre"
+  },
+  {
+    "elevation": 17,
+    "timezone_id": "Europe/Rome",
+    "name": "Genoa",
+    "population": "580,223",
+    "identifier": "genoa"
+  },
+  {
+    "elevation": 26,
+    "timezone_id": "Europe/Oslo",
+    "name": "Oslo",
+    "population": "580,000",
+    "identifier": "oslo"
+  },
+  {
+    "elevation": 8,
+    "timezone_id": "Africa/Libreville",
+    "name": "Libreville",
+    "population": "578,156",
+    "identifier": "libreville"
+  },
+  {
+    "elevation": 1760,
+    "timezone_id": "Asia/Tehran",
+    "name": "Kerman",
+    "population": "577,514",
+    "identifier": "kerman"
+  },
+  {
+    "elevation": 45,
+    "timezone_id": "Europe/Berlin",
+    "name": "Duesseldorf",
+    "population": "573,057",
+    "identifier": "duesseldorf"
+  },
+  {
+    "elevation": 8,
+    "timezone_id": "Asia/Kuching",
+    "name": "Kuching",
+    "population": "570,407",
+    "identifier": "kuching"
+  },
+  {
+    "elevation": 1513,
+    "timezone_id": "America/Denver",
+    "name": "Albuquerque",
+    "population": "559,121",
+    "identifier": "albuquerque"
+  },
+  {
+    "elevation": 26,
+    "timezone_id": "Europe/Helsinki",
+    "name": "Helsinki",
+    "population": "558,457",
+    "identifier": "helsinki"
+  },
+  {
+    "elevation": 16,
+    "timezone_id": "Asia/Aden",
+    "name": "Aden",
+    "population": "550,602",
+    "identifier": "aden"
+  },
+  {
+    "elevation": 107,
+    "timezone_id": "Asia/Yekaterinburg",
+    "name": "Orenburg",
+    "population": "550,204",
+    "identifier": "orenburg"
+  },
+  {
+    "elevation": 597,
+    "timezone_id": "Europe/Belgrade",
+    "name": "Pristina",
+    "population": "550,000",
+    "identifier": "pristina"
+  },
+  {
+    "elevation": 3,
+    "timezone_id": "Europe/Berlin",
+    "name": "Bremen",
+    "population": "546,501",
+    "identifier": "bremen"
+  },
+  {
+    "elevation": 98,
+    "timezone_id": "Europe/Vilnius",
+    "name": "Vilnius",
+    "population": "542,366",
+    "identifier": "vilnius"
+  },
+  {
+    "elevation": 171,
+    "timezone_id": "America/Chicago",
+    "name": "Nashville",
+    "population": "530,852",
+    "identifier": "nashville"
+  },
+  {
+    "elevation": 54,
+    "timezone_id": "America/Toronto",
+    "name": "Quebec",
+    "population": "528,595",
+    "identifier": "quebec"
+  },
+  {
+    "elevation": 653,
+    "timezone_id": "America/El_Salvador",
+    "name": "San Salvador",
+    "population": "525,990",
+    "identifier": "san salvador"
+  },
+  {
+    "elevation": 22,
+    "timezone_id": "Asia/Macau",
+    "name": "Macau",
+    "population": "520,400",
+    "identifier": "macau"
+  },
+  {
+    "elevation": 81,
+    "timezone_id": "Asia/Yekaterinburg",
+    "name": "Tyumen",
+    "population": "519,119",
+    "identifier": "tyumen"
+  },
+  {
+    "elevation": 45,
+    "timezone_id": "Europe/Lisbon",
+    "name": "Lisbon",
+    "population": "517,802",
+    "identifier": "lisbon"
+  },
+  {
+    "elevation": 57,
+    "timezone_id": "Europe/Berlin",
+    "name": "Hannover",
+    "population": "515,140",
+    "identifier": "hannover"
+  },
+  {
+    "elevation": 1183,
+    "timezone_id": "America/Argentina/Salta",
+    "name": "Salta",
+    "population": "512,686",
+    "identifier": "salta"
+  },
+  {
+    "elevation": 65,
+    "timezone_id": "Europe/London",
+    "name": "Leicester",
+    "population": "508,916",
+    "identifier": "leicester"
+  },
+  {
+    "elevation": 116,
+    "timezone_id": "Europe/Berlin",
+    "name": "Leipzig",
+    "population": "504,971",
+    "identifier": "leipzig"
+  },
+  {
+    "elevation": 38,
+    "timezone_id": "Europe/Berlin",
+    "name": "Duisburg",
+    "population": "504,358",
+    "identifier": "duisburg"
+  },
+  {
+    "elevation": -12,
+    "timezone_id": "Europe/Astrakhan",
+    "name": "Astrakhan",
+    "population": "502,533",
+    "identifier": "astrakhan"
+  },
+  {
+    "elevation": 300,
+    "timezone_id": "Europe/Berlin",
+    "name": "Nuernberg",
+    "population": "499,237",
+    "identifier": "nuernberg"
+  },
+  {
+    "elevation": 116,
+    "timezone_id": "Europe/Berlin",
+    "name": "Dresden",
+    "population": "486,854",
+    "identifier": "dresden"
+  },
+  {
+    "elevation": 117,
+    "timezone_id": "Asia/Tomsk",
+    "name": "Tomsk",
+    "population": "485,519",
+    "identifier": "tomsk"
+  },
+  {
+    "elevation": 1216,
+    "timezone_id": "Asia/Tehran",
+    "name": "Yazd",
+    "population": "477,905",
+    "identifier": "yazd"
+  },
+  {
+    "elevation": 272,
+    "timezone_id": "America/Chicago",
+    "name": "Kansas City",
+    "population": "151,306",
+    "identifier": "kansas city"
+  },
+  {
+    "elevation": 247,
+    "timezone_id": "Europe/Skopje",
+    "name": "Skopje",
+    "population": "474,889",
+    "identifier": "skopje"
+  },
+  {
+    "elevation": 4,
+    "timezone_id": "Europe/Amsterdam",
+    "name": "The Hague",
+    "population": "474,292",
+    "identifier": "the hague"
+  },
+  {
+    "elevation": 173,
+    "timezone_id": "Europe/Paris",
+    "name": "Lyon",
+    "population": "472,317",
+    "identifier": "lyon"
+  },
+  {
+    "elevation": 66,
+    "timezone_id": "Europe/London",
+    "name": "Edinburgh",
+    "population": "464,990",
+    "identifier": "edinburgh"
+  },
+  {
+    "elevation": 2,
+    "timezone_id": "Europe/Brussels",
+    "name": "Antwerpen",
+    "population": "459,805",
+    "identifier": "antwerpen"
+  },
+  {
+    "elevation": 2,
+    "timezone_id": "Asia/Pontianak",
+    "name": "Pontianak",
+    "population": "455,173",
+    "identifier": "pontianak"
+  },
+  {
+    "elevation": 50,
+    "timezone_id": "Europe/London",
+    "name": "Leeds",
+    "population": "455,123",
+    "identifier": "leeds"
+  },
+  {
+    "elevation": 17,
+    "timezone_id": "Europe/London",
+    "name": "Cardiff",
+    "population": "447,287",
+    "identifier": "cardiff"
+  },
+  {
+    "elevation": 11,
+    "timezone_id": "America/Puerto_Rico",
+    "name": "San Juan",
+    "population": "418,140",
+    "identifier": "san juan"
+  },
+  {
+    "elevation": 315,
+    "timezone_id": "America/Chicago",
+    "name": "Omaha",
+    "population": "443,885",
+    "identifier": "omaha"
+  },
+  {
+    "elevation": 32,
+    "timezone_id": "America/Port-au-Prince",
+    "name": "Carrefour",
+    "population": "442,156",
+    "identifier": "carrefour"
+  },
+  {
+    "elevation": 25,
+    "timezone_id": "America/New_York",
+    "name": "Miami",
+    "population": "441,003",
+    "identifier": "miami"
+  },
+  {
+    "elevation": 2,
+    "timezone_id": "Europe/Kaliningrad",
+    "name": "Kaliningrad",
+    "population": "434,954",
+    "identifier": "kaliningrad"
+  },
+  {
+    "elevation": 150,
+    "timezone_id": "Europe/Paris",
+    "name": "Toulouse",
+    "population": "433,055",
+    "identifier": "toulouse"
+  },
+  {
+    "elevation": 15,
+    "timezone_id": "Asia/Jerusalem",
+    "name": "Tel Aviv",
+    "population": "432,892",
+    "identifier": "tel aviv"
+  },
+  {
+    "elevation": 759,
+    "timezone_id": "Asia/Hebron",
+    "name": "East Jerusalem",
+    "population": "428,304",
+    "identifier": "east jerusalem"
+  },
+  {
+    "elevation": 157,
+    "timezone_id": "Europe/Bratislava",
+    "name": "Bratislava",
+    "population": "423,737",
+    "identifier": "bratislava"
+  },
+  {
+    "elevation": 43,
+    "timezone_id": "Pacific/Auckland",
+    "name": "Auckland",
+    "population": "417,910",
+    "identifier": "auckland"
+  },
+  {
+    "elevation": 1,
+    "timezone_id": "Europe/Zaporozhye",
+    "name": "Sevastopol",
+    "population": "416,263",
+    "identifier": "sevastopol"
+  },
+  {
+    "elevation": 262,
+    "timezone_id": "America/Chicago",
+    "name": "Minneapolis",
+    "population": "410,939",
+    "identifier": "minneapolis"
+  },
+  {
+    "elevation": 38,
+    "timezone_id": "Asia/Gaza",
+    "name": "Gaza",
+    "population": "410,000",
+    "identifier": "gaza"
+  },
+  {
+    "elevation": 219,
+    "timezone_id": "Europe/Moscow",
+    "name": "Kursk",
+    "population": "409,431",
+    "identifier": "kursk"
+  },
+  {
+    "elevation": 17,
+    "timezone_id": "America/Panama",
+    "name": "Panama",
+    "population": "408,168",
+    "identifier": "panama"
+  },
+  {
+    "elevation": 226,
+    "timezone_id": "America/Chicago",
+    "name": "Tulsa",
+    "population": "403,505",
+    "identifier": "tulsa"
+  },
+  {
+    "elevation": 132,
+    "timezone_id": "Europe/Moscow",
+    "name": "Tver",
+    "population": "400,212",
+    "identifier": "tver"
+  },
+  {
+    "elevation": 51,
+    "timezone_id": "Europe/London",
+    "name": "Manchester",
+    "population": "395,515",
+    "identifier": "manchester"
+  },
+  {
+    "elevation": 12,
+    "timezone_id": "Europe/Tallinn",
+    "name": "Tallinn",
+    "population": "394,024",
+    "identifier": "tallinn"
+  },
+  {
+    "elevation": 1007,
+    "timezone_id": "Asia/Kabul",
+    "name": "Kandahar",
+    "population": "391,190",
+    "identifier": "kandahar"
+  },
+  {
+    "elevation": 402,
+    "timezone_id": "America/Chicago",
+    "name": "Wichita",
+    "population": "389,965",
+    "identifier": "wichita"
+  },
+  {
+    "elevation": 18,
+    "timezone_id": "America/Chicago",
+    "name": "New Orleans",
+    "population": "389,617",
+    "identifier": "new orleans"
+  },
+  {
+    "elevation": 31,
+    "timezone_id": "Pacific/Auckland",
+    "name": "Wellington",
+    "population": "381,900",
+    "identifier": "wellington"
+  },
+  {
+    "elevation": 23,
+    "timezone_id": "Atlantic/Canary",
+    "name": "Las Palmas de Gran Canaria",
+    "population": "381,847",
+    "identifier": "las palmas de gran canaria"
+  },
+  {
+    "elevation": 10,
+    "timezone_id": "America/Mazatlan",
+    "name": "Mazatlan",
+    "population": "381,583",
+    "identifier": "mazatlan"
+  },
+  {
+    "elevation": 113,
+    "timezone_id": "Europe/Tirane",
+    "name": "Tirana",
+    "population": "374,801",
+    "identifier": "tirana"
+  },
+  {
+    "elevation": 74,
+    "timezone_id": "Europe/Vilnius",
+    "name": "Kaunas",
+    "population": "374,643",
+    "identifier": "kaunas"
+  },
+  {
+    "elevation": 18,
+    "timezone_id": "Pacific/Honolulu",
+    "name": "Honolulu",
+    "population": "371,657",
+    "identifier": "honolulu"
+  },
+  {
+    "elevation": 571,
+    "timezone_id": "Australia/Sydney",
+    "name": "Canberra",
+    "population": "367,752",
+    "identifier": "canberra"
+  },
+  {
+    "elevation": 71,
+    "timezone_id": "Europe/Rome",
+    "name": "Bologna",
+    "population": "366,133",
+    "identifier": "bologna"
+  },
+  {
+    "elevation": 14,
+    "timezone_id": "Pacific/Auckland",
+    "name": "Christchurch",
+    "population": "363,926",
+    "identifier": "christchurch"
+  },
+  {
+    "elevation": 6,
+    "timezone_id": "America/Halifax",
+    "name": "Halifax",
+    "population": "359,111",
+    "identifier": "halifax"
+  },
+  {
+    "elevation": 12,
+    "timezone_id": "Asia/Jayapura",
+    "name": "Ambon",
+    "population": "355,596",
+    "identifier": "ambon"
+  },
+  {
+    "elevation": 51,
+    "timezone_id": "Europe/Rome",
+    "name": "Florence",
+    "population": "349,296",
+    "identifier": "florence"
+  },
+  {
+    "elevation": 11,
+    "timezone_id": "Asia/Qatar",
+    "name": "Doha",
+    "population": "344,939",
+    "identifier": "doha"
+  },
+  {
+    "elevation": 429,
+    "timezone_id": "Europe/Zurich",
+    "name": "Zurich",
+    "population": "341,730",
+    "identifier": "zurich"
+  },
+  {
+    "elevation": 18,
+    "timezone_id": "Europe/Paris",
+    "name": "Nice",
+    "population": "338,620",
+    "identifier": "nice"
+  },
+  {
+    "elevation": 247,
+    "timezone_id": "Europe/Simferopol",
+    "name": "Simferopol",
+    "population": "336,460",
+    "identifier": "simferopol"
+  },
+  {
+    "elevation": 932,
+    "timezone_id": "America/Mazatlan",
+    "name": "Tepic",
+    "population": "332,863",
+    "identifier": "tepic"
+  },
+  {
+    "elevation": 14,
+    "timezone_id": "Europe/Moscow",
+    "name": "Sochi",
+    "population": "327,608",
+    "identifier": "sochi"
+  },
+  {
+    "elevation": 250,
+    "timezone_id": "Europe/Moscow",
+    "name": "Smolensk",
+    "population": "320,991",
+    "identifier": "smolensk"
+  },
+  {
+    "elevation": 719,
+    "timezone_id": "Asia/Samarkand",
+    "name": "Samarkand",
+    "population": "319,366",
+    "identifier": "samarkand"
+  },
+  {
+    "elevation": 96,
+    "timezone_id": "Europe/Moscow",
+    "name": "Murmansk",
+    "population": "319,263",
+    "identifier": "murmansk"
+  },
+  {
+    "elevation": 671,
+    "timezone_id": "Europe/Moscow",
+    "name": "Vladikavkaz",
+    "population": "317,370",
+    "identifier": "vladikavkaz"
+  },
+  {
+    "elevation": 668,
+    "timezone_id": "Asia/Chita",
+    "name": "Chita",
+    "population": "308,500",
+    "identifier": "chita"
+  },
+  {
+    "elevation": 1,
+    "timezone_id": "Australia/Sydney",
+    "name": "Newcastle",
+    "population": "308,308",
+    "identifier": "newcastle"
+  },
+  {
+    "elevation": 90,
+    "timezone_id": "America/Porto_Velho",
+    "name": "Porto Velho",
+    "population": "306,180",
+    "identifier": "porto velho"
+  },
+  {
+    "elevation": 1260,
+    "timezone_id": "America/Argentina/Jujuy",
+    "name": "San Salvador de Jujuy",
+    "population": "305,891",
+    "identifier": "san salvador de jujuy"
+  },
+  {
+    "elevation": 239,
+    "timezone_id": "America/New_York",
+    "name": "Pittsburgh",
+    "population": "304,391",
+    "identifier": "pittsburgh"
+  },
+  {
+    "elevation": 49,
+    "timezone_id": "Europe/Paris",
+    "name": "Brest",
+    "population": "144,899",
+    "identifier": "brest"
+  },
+  {
+    "elevation": 16,
+    "timezone_id": "America/Anchorage",
+    "name": "Anchorage",
+    "population": "298,695",
+    "identifier": "anchorage"
+  },
+  {
+    "elevation": 267,
+    "timezone_id": "America/New_York",
+    "name": "Cincinnati",
+    "population": "296,943",
+    "identifier": "cincinnati"
+  },
+  {
+    "elevation": 1,
+    "timezone_id": "Australia/Sydney",
+    "name": "Wollongong",
+    "population": "292,190",
+    "identifier": "wollongong"
+  },
+  {
+    "elevation": 40,
+    "timezone_id": "Europe/Rome",
+    "name": "Catania",
+    "population": "290,927",
+    "identifier": "catania"
+  },
+  {
+    "elevation": 13,
+    "timezone_id": "Europe/Amsterdam",
+    "name": "Utrecht",
+    "population": "290,529",
+    "identifier": "utrecht"
+  },
+  {
+    "elevation": 41,
+    "timezone_id": "America/Vancouver",
+    "name": "Victoria",
+    "population": "289,625",
+    "identifier": "victoria"
+  },
+  {
+    "elevation": 1,
+    "timezone_id": "Pacific/Port_Moresby",
+    "name": "Port Moresby",
+    "population": "283,733",
+    "identifier": "port moresby"
+  },
+  {
+    "elevation": 39,
+    "timezone_id": "Australia/Brisbane",
+    "name": "Logan City",
+    "population": "282,673",
+    "identifier": "logan city"
+  },
+  {
+    "elevation": -9999,
+    "timezone_id": "Europe/Rome",
+    "name": "Bari",
+    "population": "277,387",
+    "identifier": "bari"
+  },
+  {
+    "elevation": 19,
+    "timezone_id": "Europe/Paris",
+    "name": "Nantes",
+    "population": "277,269",
+    "identifier": "nantes"
+  },
+  {
+    "elevation": 147,
+    "timezone_id": "Europe/Paris",
+    "name": "Strasbourg",
+    "population": "274,845",
+    "identifier": "strasbourg"
+  },
+  {
+    "elevation": 7,
+    "timezone_id": "Europe/London",
+    "name": "Belfast",
+    "population": "274,770",
+    "identifier": "belfast"
+  },
+  {
+    "elevation": 295,
+    "timezone_id": "Europe/Ljubljana",
+    "name": "Ljubljana",
+    "population": "272,220",
+    "identifier": "ljubljana"
+  },
+  {
+    "elevation": 54,
+    "timezone_id": "America/New_York",
+    "name": "Orlando",
+    "population": "270,934",
+    "identifier": "orlando"
+  },
+  {
+    "elevation": 73,
+    "timezone_id": "Europe/Moscow",
+    "name": "Petrozavodsk",
+    "population": "265,025",
+    "identifier": "petrozavodsk"
+  },
+  {
+    "elevation": 14,
+    "timezone_id": "Europe/London",
+    "name": "Plymouth",
+    "population": "260,203",
+    "identifier": "plymouth"
+  },
+  {
+    "elevation": 153,
+    "timezone_id": "America/Rio_Branco",
+    "name": "Rio Branco",
+    "population": "257,642",
+    "identifier": "rio branco"
+  },
+  {
+    "elevation": 14,
+    "timezone_id": "America/Mazatlan",
+    "name": "Los Mochis",
+    "population": "256,613",
+    "identifier": "los mochis"
+  },
+  {
+    "elevation": 97,
+    "timezone_id": "Europe/Lisbon",
+    "name": "Porto",
+    "population": "249,633",
+    "identifier": "porto"
+  },
+  {
+    "elevation": 272,
+    "timezone_id": "America/Chicago",
+    "name": "Madison",
+    "population": "248,951",
+    "identifier": "madison"
+  },
+  {
+    "elevation": 56,
+    "timezone_id": "Europe/Paris",
+    "name": "Montpellier",
+    "population": "248,252",
+    "identifier": "montpellier"
+  },
+  {
+    "elevation": 10,
+    "timezone_id": "Europe/Copenhagen",
+    "name": "Arhus",
+    "population": "237,551",
+    "identifier": "arhus"
+  },
+  {
+    "elevation": 126,
+    "timezone_id": "Asia/Yakutsk",
+    "name": "Yakutsk",
+    "population": "235,600",
+    "identifier": "yakutsk"
+  },
+  {
+    "elevation": 3,
+    "timezone_id": "America/Guyana",
+    "name": "Georgetown",
+    "population": "235,017",
+    "identifier": "georgetown"
+  },
+  {
+    "elevation": 20,
+    "timezone_id": "Europe/Paris",
+    "name": "Bordeaux",
+    "population": "231,844",
+    "identifier": "bordeaux"
+  },
+  {
+    "elevation": 10,
+    "timezone_id": "Europe/Brussels",
+    "name": "Gent",
+    "population": "231,493",
+    "identifier": "gent"
+  },
+  {
+    "elevation": 10,
+    "timezone_id": "America/Chicago",
+    "name": "Baton Rouge",
+    "population": "228,590",
+    "identifier": "baton rouge"
+  },
+  {
+    "elevation": 27,
+    "timezone_id": "Europe/Paris",
+    "name": "Lille",
+    "population": "228,328",
+    "identifier": "lille"
+  },
+  {
+    "elevation": 5,
+    "timezone_id": "America/Nassau",
+    "name": "Nassau",
+    "population": "227,940",
+    "identifier": "nassau"
+  },
+  {
+    "elevation": -9999,
+    "timezone_id": "Australia/Melbourne",
+    "name": "Geelong",
+    "population": "226,034",
+    "identifier": "geelong"
+  },
+  {
+    "elevation": 5,
+    "timezone_id": "America/Paramaribo",
+    "name": "Paramaribo",
+    "population": "223,757",
+    "identifier": "paramaribo"
+  },
+  {
+    "elevation": 55,
+    "timezone_id": "Atlantic/Canary",
+    "name": "Santa Cruz de Tenerife",
+    "population": "222,417",
+    "identifier": "santa cruz de tenerife"
+  },
+  {
+    "elevation": 363,
+    "timezone_id": "Europe/Vienna",
+    "name": "Graz",
+    "population": "222,326",
+    "identifier": "graz"
+  },
+  {
+    "elevation": 29,
+    "timezone_id": "Europe/Rome",
+    "name": "Messina",
+    "population": "219,948",
+    "identifier": "messina"
+  },
+  {
+    "elevation": 62,
+    "timezone_id": "Europe/Rome",
+    "name": "Verona",
+    "population": "219,103",
+    "identifier": "verona"
+  },
+  {
+    "elevation": 1,
+    "timezone_id": "Australia/Hobart",
+    "name": "Hobart",
+    "population": "216,656",
+    "identifier": "hobart"
+  },
+  {
+    "elevation": 79,
+    "timezone_id": "Europe/Belgrade",
+    "name": "Novi Sad",
+    "population": "215,400",
+    "identifier": "novi sad"
+  },
+  {
+    "elevation": 20,
+    "timezone_id": "Europe/Oslo",
+    "name": "Bergen",
+    "population": "213,585",
+    "identifier": "bergen"
+  },
+  {
+    "elevation": 264,
+    "timezone_id": "America/Chicago",
+    "name": "Des Moines",
+    "population": "210,330",
+    "identifier": "des moines"
+  },
+  {
+    "elevation": 167,
+    "timezone_id": "Asia/Qostanay",
+    "name": "Kostanay",
+    "population": "210,000",
+    "identifier": "kostanay"
+  },
+  {
+    "elevation": 268,
+    "timezone_id": "Europe/Vienna",
+    "name": "Linz",
+    "population": "204,846",
+    "identifier": "linz"
+  },
+  {
+    "elevation": 18,
+    "timezone_id": "Europe/Rome",
+    "name": "Padova",
+    "population": "203,725",
+    "identifier": "padova"
+  },
+  {
+    "elevation": 51,
+    "timezone_id": "Europe/Moscow",
+    "name": "Pskov",
+    "population": "201,990",
+    "identifier": "pskov"
+  },
+  {
+    "elevation": 313,
+    "timezone_id": "Asia/Bangkok",
+    "name": "Chiang Mai",
+    "population": "200,952",
+    "identifier": "chiang mai"
+  },
+  {
+    "elevation": 147,
+    "timezone_id": "Asia/Nicosia",
+    "name": "Nicosia",
+    "population": "200,452",
+    "identifier": "nicosia"
+  },
+  {
+    "elevation": 35,
+    "timezone_id": "Asia/Oral",
+    "name": "Oral",
+    "population": "200,000",
+    "identifier": "oral"
+  },
+  {
+    "elevation": 988,
+    "timezone_id": "Asia/Bishkek",
+    "name": "Osh",
+    "population": "200,000",
+    "identifier": "osh"
+  },
+  {
+    "elevation": 484,
+    "timezone_id": "America/Regina",
+    "name": "Saskatoon",
+    "population": "198,958",
+    "identifier": "saskatoon"
+  },
+  {
+    "elevation": 105,
+    "timezone_id": "America/Chicago",
+    "name": "Little Rock",
+    "population": "197,992",
+    "identifier": "little rock"
+  },
+  {
+    "elevation": 174,
+    "timezone_id": "Asia/Vientiane",
+    "name": "Vientiane",
+    "population": "196,731",
+    "identifier": "vientiane"
+  },
+  {
+    "elevation": 13,
+    "timezone_id": "Europe/London",
+    "name": "Aberdeen",
+    "population": "196,670",
+    "identifier": "aberdeen"
+  },
+  {
+    "elevation": 271,
+    "timezone_id": "America/Araguaina",
+    "name": "Palmas",
+    "population": "196,272",
+    "identifier": "palmas"
+  },
+  {
+    "elevation": 15,
+    "timezone_id": "Australia/Brisbane",
+    "name": "Townsville",
+    "population": "196,219",
+    "identifier": "townsville"
+  },
+  {
+    "elevation": 1311,
+    "timezone_id": "America/Denver",
+    "name": "Salt Lake City",
+    "population": "192,672",
+    "identifier": "salt lake city"
+  },
+  {
+    "elevation": 10,
+    "timezone_id": "Europe/Dublin",
+    "name": "Cork",
+    "population": "190,384",
+    "identifier": "cork"
+  },
+  {
+    "elevation": 71,
+    "timezone_id": "America/New_York",
+    "name": "Tallahassee",
+    "population": "189,907",
+    "identifier": "tallahassee"
+  },
+  {
+    "elevation": 51,
+    "timezone_id": "America/Santarem",
+    "name": "Santarem",
+    "population": "189,047",
+    "identifier": "santarem"
+  },
+  {
+    "elevation": 545,
+    "timezone_id": "America/Argentina/Catamarca",
+    "name": "San Fernando del Valle de Catamarca",
+    "population": "188,812",
+    "identifier": "san fernando del valle de catamarca"
+  },
+  {
+    "elevation": 19,
+    "timezone_id": "Europe/Rome",
+    "name": "Trieste",
+    "population": "187,056",
+    "identifier": "trieste"
+  },
+  {
+    "elevation": 729,
+    "timezone_id": "America/Argentina/San_Luis",
+    "name": "San Luis",
+    "population": "183,982",
+    "identifier": "san luis"
+  },
+  {
+    "elevation": 400,
+    "timezone_id": "Europe/Zurich",
+    "name": "Geneva",
+    "population": "183,981",
+    "identifier": "geneva"
+  },
+  {
+    "elevation": -25,
+    "timezone_id": "Asia/Atyrau",
+    "name": "Atyrau",
+    "population": "180,000",
+    "identifier": "atyrau"
+  },
+  {
+    "elevation": 153,
+    "timezone_id": "Asia/Tbilisi",
+    "name": "Kutaisi",
+    "population": "178,338",
+    "identifier": "kutaisi"
+  },
+  {
+    "elevation": 48,
+    "timezone_id": "Asia/Sakhalin",
+    "name": "Yuzhno-Sakhalinsk",
+    "population": "176,484",
+    "identifier": "yuzhno-sakhalinsk"
+  },
+  {
+    "elevation": 12,
+    "timezone_id": "Europe/Zagreb",
+    "name": "Split",
+    "population": "176,314",
+    "identifier": "split"
+  },
+  {
+    "elevation": 577,
+    "timezone_id": "America/Regina",
+    "name": "Regina",
+    "population": "176,183",
+    "identifier": "regina"
+  },
+  {
+    "elevation": 96,
+    "timezone_id": "America/New_York",
+    "name": "Raleigh",
+    "population": "474,069",
+    "identifier": "raleigh"
+  },
+  {
+    "elevation": 22,
+    "timezone_id": "Europe/Helsinki",
+    "name": "Turku",
+    "population": "175,945",
+    "identifier": "turku"
+  },
+  {
+    "elevation": 72,
+    "timezone_id": "Europe/London",
+    "name": "Oxford",
+    "population": "171,380",
+    "identifier": "oxford"
+  },
+  {
+    "elevation": 100,
+    "timezone_id": "America/Chicago",
+    "name": "Jackson",
+    "population": "170,674",
+    "identifier": "jackson"
+  },
+  {
+    "elevation": 399,
+    "timezone_id": "America/Chicago",
+    "name": "Springfield",
+    "population": "166,810",
+    "identifier": "springfield"
+  },
+  {
+    "elevation": 279,
+    "timezone_id": "Europe/Zurich",
+    "name": "Basel",
+    "population": "164,488",
+    "identifier": "basel"
+  },
+  {
+    "elevation": 502,
+    "timezone_id": "America/Argentina/La_Rioja",
+    "name": "La Rioja",
+    "population": "162,620",
+    "identifier": "la rioja"
+  },
+  {
+    "elevation": 903,
+    "timezone_id": "Asia/Hebron",
+    "name": "Hebron",
+    "population": "160,470",
+    "identifier": "hebron"
+  },
+  {
+    "elevation": 46,
+    "timezone_id": "Europe/Rome",
+    "name": "Modena",
+    "population": "158,886",
+    "identifier": "modena"
+  },
+  {
+    "elevation": 12,
+    "timezone_id": "Europe/London",
+    "name": "Cambridge",
+    "population": "158,434",
+    "identifier": "cambridge"
+  },
+  {
+    "elevation": 216,
+    "timezone_id": "America/Chicago",
+    "name": "Frisco",
+    "population": "154,407",
+    "identifier": "frisco"
+  },
+  {
+    "elevation": 12,
+    "timezone_id": "America/Chicago",
+    "name": "Pasadena",
+    "population": "153,784",
+    "identifier": "pasadena"
+  },
+  {
+    "elevation": 17,
+    "timezone_id": "Europe/London",
+    "name": "York",
+    "population": "153,717",
+    "identifier": "york"
+  },
+  {
+    "elevation": 435,
+    "timezone_id": "Europe/Vienna",
+    "name": "Salzburg",
+    "population": "153,377",
+    "identifier": "salzburg"
+  },
+  {
+    "elevation": 1,
+    "timezone_id": "Australia/Brisbane",
+    "name": "Cairns",
+    "population": "153,075",
+    "identifier": "cairns"
+  },
+  {
+    "elevation": 39,
+    "timezone_id": "Pacific/Auckland",
+    "name": "Hamilton",
+    "population": "152,641",
+    "identifier": "hamilton"
+  },
+  {
+    "elevation": 558,
+    "timezone_id": "Atlantic/Canary",
+    "name": "La Laguna",
+    "population": "150,661",
+    "identifier": "la laguna"
+  },
+  {
+    "elevation": 3,
+    "timezone_id": "Asia/Dili",
+    "name": "Dili",
+    "population": "150,000",
+    "identifier": "dili"
+  },
+  {
+    "elevation": 242,
+    "timezone_id": "Europe/Paris",
+    "name": "Dijon",
+    "population": "149,782",
+    "identifier": "dijon"
+  },
+  {
+    "elevation": 20,
+    "timezone_id": "Europe/Stockholm",
+    "name": "Uppsala",
+    "population": "149,245",
+    "identifier": "uppsala"
+  },
+  {
+    "elevation": 18,
+    "timezone_id": "Europe/Oslo",
+    "name": "Trondheim",
+    "population": "147,139",
+    "identifier": "trondheim"
+  },
+  {
+    "elevation": 12,
+    "timezone_id": "Asia/Bahrain",
+    "name": "Manama",
+    "population": "147,074",
+    "identifier": "manama"
+  },
+  {
+    "elevation": 64,
+    "timezone_id": "Europe/Rome",
+    "name": "Parma",
+    "population": "146,299",
+    "identifier": "parma"
+  },
+  {
+    "elevation": 834,
+    "timezone_id": "America/Boise",
+    "name": "Boise",
+    "population": "145,987",
+    "identifier": "boise"
+  },
+  {
+    "elevation": 17,
+    "timezone_id": "Europe/Copenhagen",
+    "name": "Odense",
+    "population": "145,931",
+    "identifier": "odense"
+  },
+  {
+    "elevation": 28,
+    "timezone_id": "Europe/Paris",
+    "name": "Amiens",
+    "population": "143,086",
+    "identifier": "amiens"
+  },
+  {
+    "elevation": 49,
+    "timezone_id": "Europe/Paris",
+    "name": "Tours",
+    "population": "141,621",
+    "identifier": "tours"
+  },
+  {
+    "elevation": 49,
+    "timezone_id": "Europe/Podgorica",
+    "name": "Podgorica",
+    "population": "136,473",
+    "identifier": "podgorica"
+  },
+  {
+    "elevation": 587,
+    "timezone_id": "Europe/Vienna",
+    "name": "Innsbruck",
+    "population": "132,493",
+    "identifier": "innsbruck"
+  },
+  {
+    "elevation": 599,
+    "timezone_id": "Australia/Brisbane",
+    "name": "Toowoomba",
+    "population": "131,258",
+    "identifier": "toowoomba"
+  },
+  {
+    "elevation": 31,
+    "timezone_id": "Australia/Darwin",
+    "name": "Darwin",
+    "population": "129,062",
+    "identifier": "darwin"
+  },
+  {
+    "elevation": 549,
+    "timezone_id": "Europe/Zurich",
+    "name": "Bern",
+    "population": "121,631",
+    "identifier": "bern"
+  },
+  {
+    "elevation": 1,
+    "timezone_id": "Europe/Rome",
+    "identifier": "venice",
+    "name": "Venice",
+    "population": "270,884"
+  },
+  {
+    "elevation": 4,
+    "timezone_id": "Africa/Tunis",
+    "identifier": "tunis",
+    "name": "Tunis",
+    "population": "2,869,529"
+  },
+  {
+    "elevation": 490,
+    "timezone_id": "Asia/Karachi",
+    "identifier": "islamabad",
+    "name": "Islamabad",
+    "population": "1,014,825"
+  },
+  {
+    "elevation": 22,
+    "timezone_id": "Asia/Brunei",
+    "identifier": "bandar seri begawan",
+    "name": "Bandar Seri Begawan",
+    "population": "100,700"
+  },
+  {
+    "elevation": 2,
+    "timezone_id": "Indian/Maldives",
+    "identifier": "male",
+    "name": "Malé",
+    "population": "133,412"
+  },
+  {
+    "elevation": 347,
+    "timezone_id": "Asia/Almaty",
+    "identifier": "astana",
+    "name": "Nur-Sultan",
+    "population": "1,136,008"
+  },
+  {
+    "elevation": 30,
+    "timezone_id": "Europe/Istanbul",
+    "identifier": "antalya",
+    "name": "Antalya",
+    "population": "2,511,700"
+  },
+  {
+    "elevation": 56,
+    "timezone_id": "Europe/Malta",
+    "identifier": "valletta",
+    "name": "Valletta",
+    "population": "393,938"
+  },
+  {
+    "elevation": 402,
+    "timezone_id": "Europe/Luxembourg",
+    "identifier": "luxembourg city",
+    "name": "Luxembourg City",
+    "population": "124,528"
+  },
+  {
+    "elevation": 61,
+    "timezone_id": "Atlantic/Reykjavik",
+    "identifier": "reykjavik",
+    "name": "Reykjavik",
+    "population": "131,136"
+  },
+  {
+    "elevation": 9,
+    "timezone_id": "America/Los_Angeles",
+    "identifier": "sacramento",
+    "name": "Sacramento",
+    "population": "513,624"
+  },
+  {
+    "elevation": 47,
+    "timezone_id": "Asia/Kuwait",
+    "identifier": "kuwait city",
+    "name": "Kuwait City",
+    "population": "4,100,000"
+  },
+  {
+    "elevation": 1,
+    "timezone_id": "America/Lima",
+    "identifier": "lima",
+    "name": "Lima",
+    "population": "9,674,800"
+  },
+  {
+    "population": "60,257",
+    "elevation": 72,
+    "timezone_id": "America/Los_Angeles",
+    "name": "Cupertino",
+    "aliases": [
+      "Apple Park"
+    ],
+    "identifier": "cupertino"
+  }
+]

@@ -1,0 +1,148 @@
+{
+  "fixtures": {
+    "colons": [
+      ":",
+      "："
+    ],
+    "nextDateQualifiers": [
+      "next"
+    ],
+    "ordinalSuffixes": [
+      "st",
+      "nd",
+      "rd",
+      "th"
+    ],
+    "middayAliases": [
+      "midday",
+      "noon"
+    ],
+    "midnightAliases": [
+      "midnight"
+    ],
+    "converterSymbols": [
+      "to",
+      "as"
+    ],
+    "feetAndInchesTypes": [
+      "feet and inches",
+      "inches and feet",
+      "feet inches",
+      "foot inch"
+    ],
+    "powerOperators": [
+      "^",
+      "**"
+    ],
+    "percentTypes": [
+      "percent",
+      "percentage",
+      "per cent"
+    ],
+    "hereAliases": [
+      "here"
+    ],
+    "pmAliases": [
+      "pm"
+    ],
+    "amAliases": [
+      "am"
+    ],
+    "nowDateAliases": [
+      "now"
+    ],
+    "piAliases": [
+      "π"
+    ],
+    "divisionOperators": [
+      "÷",
+      "per"
+    ],
+    "fractionTypes": [
+      "fraction"
+    ],
+    "multiplierTypes": [
+      "multiplier",
+      "multiple"
+    ],
+    "binaryTypes": [
+      "binary"
+    ],
+    "hexadecimalTypes": [
+      "hexadecimal",
+      "hex"
+    ],
+    "roundingUpConverters": [
+      "rounded up"
+    ],
+    "previousDateQualifiers": [
+      "previous",
+      "last"
+    ],
+    "timespanTypes": [
+      "timespan"
+    ],
+    "decimalPlacesTypes": [
+      "dp",
+      "digit",
+      "digits"
+    ],
+    "laptimeTypes": [
+      "laptime"
+    ],
+    "iso8601Types": [
+      "iso8601"
+    ],
+    "lessThanOrEqualToOperators": [
+      "<=",
+      "=<"
+    ],
+    "roundingConverters": [
+      "rounded"
+    ],
+    "subtractionOperators": [
+      "−",
+      "–",
+      "minus"
+    ],
+    "dateTypes": [
+      "date"
+    ],
+    "reverseSubtractionOperators": [
+    ],
+    "numberTypes": [
+      "number",
+      "decimal"
+    ],
+    "roundingDownConverters": [
+      "rounded down"
+    ],
+    "todayDateAliases": [
+      "today"
+    ],
+    "additionOperators": [
+      "plus"
+    ],
+    "isNotEqualToOperators": [
+      "!=",
+      "=!"
+    ],
+    "greaterThanOrEqualToOperators": [
+      ">=",
+      "=>"
+    ],
+    "multiplicationOperators": [
+      "×",
+      "x"
+    ],
+    "timestampTypes": [
+      "timestamp"
+    ],
+    "yesterdayDateAliases": [
+      "yesterday"
+    ],
+    "tomorrowDateAliases": [
+      "tomorrow"
+    ]
+  }
+}

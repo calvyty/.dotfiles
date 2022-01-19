@@ -1,0 +1,556 @@
+{
+  "tagRelated": [
+    {
+      "prototypeExpressions": [
+        "total of __tag",
+        "total __tag",
+        "__tag total",
+        "sum of __tag",
+        "sum __tag",
+        "__tag sum"
+      ],
+      "identifier": "tagTotal"
+    },
+    {
+      "prototypeExpressions": [
+        "average of __tag",
+        "average __tag",
+        "__tag average",
+        "mean of __tag",
+        "mean __tag",
+        "__tag mean"
+      ],
+      "identifier": "tagAverage"
+    },
+    {
+      "prototypeExpressions": [
+        "count of __tag",
+        "count __tag",
+        "__tag count"
+      ],
+      "identifier": "tagCount"
+    }
+  ],
+  "financial": [
+    {
+      "prototypeExpressions": [
+        "present value of 1000 after __timespan at __percentage",
+        "present value of 1000 over __timespan at __percentage"
+      ],
+      "identifier": "presentValue"
+    },
+    {
+      "prototypeExpressions": [
+        "annual return on 500 invested 1000 returned after __timespan",
+        "yearly return on 500 invested 1000 returned after __timespan",
+        "annual return on 500 invested 1000 returned over __timespan",
+        "yearly return on 500 invested 1000 returned over __timespan"
+      ],
+      "identifier": "returnOnInvestmentAfter"
+    },
+    {
+      "identifier": "returnOnInvestment",
+      "prototypeExpressions": [
+        "500 invested 1000 returned"
+      ]
+    },
+    {
+      "identifier": "totalLoanRepayment",
+      "prototypeExpressions": [
+        "total repayment on 10000 for __timespan at __percentage",
+        "total repayment on 10000 after __timespan at __percentage",
+        "total repayment on 10000 over __timespan at __percentage",
+        "total payment on 10000 for __timespan at __percentage",
+        "total payment on 10000 after __timespan at __percentage",
+        "total payment on 10000 over __timespan at __percentage"
+      ]
+    },
+    {
+      "prototypeExpressions": [
+        "annual repayment on 10000 for __timespan at __percentage",
+        "annual repayment on 10000 after __timespan at __percentage",
+        "annual repayment on 10000 over __timespan at __percentage",
+        "yearly repayment on 10000 over __timespan at __percentage",
+        "yearly repayment on 10000 after __timespan at __percentage",
+        "yearly repayment on 10000 for __timespan at __percentage",
+        "annual payment on 10000 for __timespan at __percentage",
+        "annual payment on 10000 after __timespan at __percentage",
+        "annual payment on 10000 over __timespan at __percentage",
+        "yearly payment on 10000 over __timespan at __percentage",
+        "yearly payment on 10000 after __timespan at __percentage",
+        "yearly payment on 10000 for __timespan at __percentage"
+      ],
+      "identifier": "annualLoanRepayment"
+    },
+    {
+      "identifier": "monthlyLoanRepayment",
+      "prototypeExpressions": [
+        "monthly repayment on 10000 for __timespan at __percentage",
+        "monthly repayment on 10000 after __timespan at __percentage",
+        "monthly repayment on 10000 over __timespan at __percentage",
+        "monthly payment on 10000 for __timespan at __percentage",
+        "monthly payment on 10000 after __timespan at __percentage",
+        "monthly payment on 10000 over __timespan at __percentage"
+      ]
+    },
+    {
+      "prototypeExpressions": [
+        "total interest on 10000 for __timespan at __percentage",
+        "total interest on 10000 after __timespan at __percentage",
+        "total interest on 10000 over __timespan at __percentage"
+      ],
+      "identifier": "totalInterestOnLoanRepayment"
+    },
+    {
+      "identifier": "annualInterestOnLoanRepayment",
+      "prototypeExpressions": [
+        "annual interest on 10000 for __timespan at __percentage",
+        "annual interest on 10000 after __timespan at __percentage",
+        "annual interest on 10000 over __timespan at __percentage",
+        "yearly interest on 10000 over __timespan at __percentage",
+        "yearly interest on 10000 after __timespan at __percentage",
+        "yearly interest on 10000 for __timespan at __percentage"
+      ]
+    },
+    {
+      "prototypeExpressions": [
+        "monthly interest on 10000 for __timespan at __percentage",
+        "monthly interest on 10000 after __timespan at __percentage",
+        "monthly interest on 10000 over __timespan at __percentage"
+      ],
+      "identifier": "monthlyInterestOnLoanRepayment"
+    },
+    {
+      "identifier": "compoundInterestCompoundingMonthly",
+      "prototypeExpressions": [
+        "100 after __timespan at __percentage compounded monthly",
+        "100 for __timespan at __percentage compounded monthly",
+        "100 over __timespan at __percentage compounded monthly",
+        "100 at __percentage after __timespan compounded monthly",
+        "100 at __percentage for __timespan compounded monthly",
+        "100 at __percentage over __timespan compounded monthly",
+        "100 after __timespan at __percentage compounding monthly",
+        "100 for __timespan at __percentage compounding monthly",
+        "100 over __timespan at __percentage compounding monthly",
+        "100 at __percentage after __timespan compounding monthly",
+        "100 at __percentage for __timespan compounding monthly",
+        "100 at __percentage over __timespan compounding monthly"
+      ]
+    },
+    {
+      "identifier": "compoundInterest",
+      "prototypeExpressions": [
+        "100 after __timespan at __percentage",
+        "100 for __timespan at __percentage",
+        "100 over __timespan at __percentage",
+        "100 at __percentage after __timespan",
+        "100 at __percentage for __timespan",
+        "100 at __percentage over __timespan"
+      ]
+    }
+  ],
+  "percentage": [
+    {
+      "prototypeExpressions": [
+        "__percentage of 100"
+      ],
+      "identifier": "percentOf"
+    },
+    {
+      "prototypeExpressions": [
+        "__percentage off 100"
+      ],
+      "identifier": "percentOff"
+    },
+    {
+      "prototypeExpressions": [
+        "__percentage on 100"
+      ],
+      "identifier": "percentOn"
+    },
+    {
+      "prototypeExpressions": [
+        "30 is __percentage of what"
+      ],
+      "identifier": "isPercentOfWhat"
+    },
+    {
+      "prototypeExpressions": [
+        "__percentage of what is 30"
+      ],
+      "identifier": "isPercentOfWhatClassic"
+    },
+    {
+      "prototypeExpressions": [
+        "30 is __percentage off what"
+      ],
+      "identifier": "isPercentOffWhat"
+    },
+    {
+      "prototypeExpressions": [
+        "__percentage off what is 30"
+      ],
+      "identifier": "isPercentOffWhatClassic"
+    },
+    {
+      "prototypeExpressions": [
+        "30 is __percentage on what"
+      ],
+      "identifier": "isPercentOnWhat"
+    },
+    {
+      "prototypeExpressions": [
+        "__percentage on what is 30"
+      ],
+      "identifier": "isPercentOnWhatClassic"
+    },
+    {
+      "prototypeExpressions": [
+        "10 is what % of 20",
+        "10 as a % of 20",
+        "10 as % of 20"
+      ],
+      "identifier": "isWhatPercentOf"
+    },
+    {
+      "prototypeExpressions": [
+        "10 is what % off 20",
+        "10 as a % off 20",
+        "10 as % off 20"
+      ],
+      "identifier": "isWhatPercentOff"
+    },
+    {
+      "prototypeExpressions": [
+        "20 is what % on 10",
+        "20 as a % on 10",
+        "20 as % on 10"
+      ],
+      "identifier": "isWhatPercentOn"
+    },
+    {
+      "identifier": "xToYIsWhatPercentage",
+      "prototypeExpressions": [
+        "10 to 20 is what %"
+      ]
+    }
+  ],
+  "unitRelated": [
+    {
+      "prototypeExpressions": [
+        "__unit in __unit_expression"
+      ],
+      "identifier": "unitInUnitExpression"
+    },
+    {
+      "prototypeExpressions": [
+        "__unit_expression __substance in __unit",
+        "__unit_expression of __substance in __unit",
+        "__unit_expression __substance as __unit",
+        "__unit_expression of __substance as __unit",
+        "__unit_expression __substance to __unit",
+        "__unit_expression of __substance to __unit"
+      ],
+      "identifier": "substanceWeightToVolumeConversion"
+    },
+    {
+      "prototypeExpressions": [
+        "density of __substance",
+        "__substance density"
+      ],
+      "identifier": "densityOfSubstance"
+    },
+    {
+      "prototypeExpressions": [
+        "__unit in __timespan"
+      ],
+      "identifier": "unitInTimespan"
+    },
+    {
+      "identifier": "rateUnitChange",
+      "prototypeExpressions": [
+        "__rate is what / __unit",
+        "__rate is how much / __unit",
+        "__rate as / __unit",
+        "__rate is what /__unit",
+        "__rate is how much /__unit",
+        "__rate as /__unit",
+        "__rate is what per __unit",
+        "__rate is how much per __unit",
+        "__rate as per __unit",
+        "__rate is what per__unit",
+        "__rate is how much per__unit",
+        "__rate as per__unit"
+      ]
+    }
+  ],
+  "datetime": [
+    {
+      "prototypeExpressions": [
+        "__unit between __datestamp and __datestamp",
+        "__unit between __datestamp to __datestamp",
+        "__unit between __datestamp - __datestamp",
+        "__unit between __datestamp − __datestamp",
+        "__unit from __datestamp to __datestamp",
+        "__unit in __datestamp to __datestamp"
+      ],
+      "identifier": "calendarUnitBetweenDates"
+    },
+    {
+      "prototypeExpressions": [
+        "__unit to __datestamp",
+        "__unit before __datestamp",
+        "__unit until __datestamp",
+        "__unit till __datestamp"
+      ],
+      "identifier": "calendarUnitToDate"
+    },
+    {
+      "identifier": "calendarUnitToDatespan",
+      "prototypeExpressions": [
+        "__unit to __datespan",
+        "__unit before __datespan",
+        "__unit until __datespan",
+        "__unit till __datespan"
+      ]
+    },
+    {
+      "identifier": "calendarUnitInDate",
+      "prototypeExpressions": [
+        "__unit in __datestamp"
+      ]
+    },
+    {
+      "identifier": "calendarUnitInDatespan",
+      "prototypeExpressions": [
+        "__unit in __datespan"
+      ]
+    },
+    {
+      "prototypeExpressions": [
+        "__datestamp to __datestamp",
+        "difference between __datestamp and __datestamp"
+      ],
+      "identifier": "intervalBetweenDates"
+    },
+    {
+      "identifier": "inclusiveCalendarUnitBetweenDates",
+      "prototypeExpressions": [
+        "__unit between __datestamp through __datestamp",
+        "__unit from __datestamp through __datestamp",
+        "__unit in __datestamp through __datestamp"
+      ]
+    },
+    {
+      "identifier": "inclusiveIntervalBetweenDates",
+      "prototypeExpressions": [
+        "__datestamp through __datestamp"
+      ]
+    },
+    {
+      "identifier": "intervalBetweenTimestamps",
+      "prototypeExpressions": [
+        "__timestamp to __timestamp"
+      ]
+    },
+    {
+      "identifier": "calendarUnitSinceDate",
+      "prototypeExpressions": [
+        "__unit since __datestamp"
+      ]
+    },
+    {
+      "prototypeExpressions": [
+        "__timespan from __datestamp",
+        "__timespan after __datestamp"
+      ],
+      "identifier": "calendarUnitExpressionAfterDate"
+    },
+    {
+      "prototypeExpressions": [
+        "__timespan before __datestamp"
+      ],
+      "identifier": "calendarUnitExpressionBeforeDate"
+    },
+    {
+      "prototypeExpressions": [
+        "__timespan ago"
+      ],
+      "identifier": "calendarUnitExpressionAgo"
+    },
+    {
+      "prototypeExpressions": [
+        "new timestamp",
+        "current timestamp"
+      ],
+      "identifier": "generateTimestamp"
+    },
+    {
+      "identifier": "timeInTimezone",
+      "prototypeExpressions": [
+        "__timezone time",
+        "time __timezone",
+        "time at __timezone",
+        "time in __timezone"
+      ]
+    },
+    {
+      "prototypeExpressions": [
+        "time difference between __timezone and __timezone",
+        "difference between __timezone and __timezone",
+        "time difference between __timezone & __timezone",
+        "difference between __timezone & __timezone"
+      ],
+      "identifier": "differenceBetweenTimezones"
+    },
+    {
+      "identifier": "weekdayAfterTimespan",
+      "prototypeExpressions": [
+        "__datestamp in __timespan",
+        "__datestamp after __timespan"
+      ]
+    },
+    {
+      "identifier": "weekNumberOnDate",
+      "prototypeExpressions": [
+        "week number on __datestamp",
+        "week number __datestamp"
+      ]
+    },
+    {
+      "identifier": "weekOfYear",
+      "prototypeExpressions": [
+        "week of year"
+      ]
+    },
+    {
+      "prototypeExpressions": [
+        "halfway between __datestamp and __datestamp",
+        "midpoint between __datestamp and __datestamp"
+      ],
+      "identifier": "halfwayBetweenDates"
+    }
+  ],
+  "general": [
+    {
+      "prototypeExpressions": [
+        "remainder of 20 divided by 3"
+      ],
+      "identifier": "remainder"
+    },
+    {
+      "prototypeExpressions": [
+        "half of 20"
+      ],
+      "identifier": "halfOf"
+    },
+    {
+      "prototypeExpressions": [
+        "smaller of 2 and 30",
+        "lesser of 2 and 30"
+      ],
+      "identifier": "lesserOf"
+    },
+    {
+      "prototypeExpressions": [
+        "larger of 2 and 30",
+        "greater of 2 and 30"
+      ],
+      "identifier": "greaterOf"
+    },
+    {
+      "prototypeExpressions": [
+        "midpoint between 2 and 32"
+      ],
+      "identifier": "midpoint"
+    },
+    {
+      "prototypeExpressions": [
+        "lcm of 5 and 8",
+        "lowest common multiple of 5 and 8"
+      ],
+      "identifier": "lcm"
+    },
+    {
+      "prototypeExpressions": [
+        "gcd of 20 and 30",
+        "greatest common divisor of 5 and 8",
+        "gcf of 20 and 30",
+        "greatest common factor of 5 and 8"
+      ],
+      "identifier": "gcd"
+    },
+    {
+      "prototypeExpressions": [
+        "6 is to 600 as what is to 8",
+        "6 to 600 is what to 8",
+        "6 to 600 as what to 8"
+      ],
+      "identifier": "proportionsFindNumerator"
+    },
+    {
+      "prototypeExpressions": [
+        "6 is to 600 as 8 is to what",
+        "6 to 600 as 8 to what",
+        "6 to 600 is 8 to what"
+      ],
+      "identifier": "proportionsFindDenominator"
+    },
+    {
+      "prototypeExpressions": [
+        "random number between 1 and 5",
+        "random between 1 and 5"
+      ],
+      "identifier": "makeRandomNumber"
+    },
+    {
+      "prototypeExpressions": [
+        "5 as multiplier of 1",
+        "5 as multiple of 1",
+        "5 as a multiplier of 1",
+        "5 as a multiple of 1",
+        "5 as x of 1",
+        "5 is what x of 1",
+        "5 is what multiple of 1",
+        "5 is what multiplier of 1"
+      ],
+      "identifier": "asMultiplierOf"
+    },
+    {
+      "prototypeExpressions": [
+        "square root of 100",
+        "squared root of 100",
+        "squared root 100",
+        "square root 100"
+      ],
+      "identifier": "squareRoot"
+    },
+    {
+      "prototypeExpressions": [
+        "cubed root of 100",
+        "cubed root 100",
+        "cube root of 100",
+        "cube root 100"
+      ],
+      "identifier": "cubedRoot"
+    },
+    {
+      "prototypeExpressions": [
+        "5 root of 100",
+        "root 5 of 100"
+      ],
+      "identifier": "nthRoot"
+    },
+    {
+      "prototypeExpressions": [
+        "log 20 base 4",
+        "log of 20 to base 4",
+        "log of 20 with base 4",
+        "logarithm 20 base 4",
+        "logarithm of 20 to base 4",
+        "logarithm of 20 with base 4"
+      ],
+      "identifier": "nthLog"
+    }
+  ]
+}
