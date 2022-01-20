@@ -52,3 +52,12 @@
 [submodule ".vim/pack/jkreeftmeijer/start/vim-dim"]
 	path = .vim/pack/jkreeftmeijer/start/vim-dim
 	url = https://github.com/jeffkreeftmeijer/vim-dim
+[submodule ".vim/pack/tpope/start/vim-eunuch"]
+	path = .vim/pack/tpope/start/vim-eunuch
+	url = https://github.com/tpope/vim-eunuch
+[submodule ".vim/pack/justinmk/start/vim-dirvish"]
+	path = .vim/pack/justinmk/start/vim-dirvish
+	url = https://github.com/justinmk/vim-dirvish
+[submodule ".vim/pack/justinmk/start/vim-sneak"]
+	path = .vim/pack/justinmk/start/vim-sneak
+	url = https://github.com/justinmk/vim-sneak
