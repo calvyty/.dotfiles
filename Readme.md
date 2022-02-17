@@ -49,7 +49,10 @@
 - [ ] Import Alfred preferences from `.config/Alfred.alfredpreferences`
 - [ ] Install Alfred workflows
 	- [ ] [Add to calendar](https://github.com/ruggi/calfred)
+	- [ ] [Bypass](https://www.thoughtasylum.com/2021/11/12/alfred-workflow-bypass-for-shortcuts/)
 	- [ ] [Deep Contacts Search](https://github.com/alfredapp/deep-contacts-search-workflow)
+	- [ ] [Doctor Drafts](https://doctordrafts.thoughtasylum.com)
+	- [ ] [Dose](https://www.thoughtasylum.com/2021/03/22/alfred-workflow-amphetamine-app/)
 	- [ ] [Reminders for Alfred](https://github.com/surrealroad/alfred-reminders)
 	- [ ] [Search Notes](https://github.com/sballin/alfred-search-notes-app)
 	- [ ] [Shortcuts](https://github.com/alfredapp/shortcuts-workflow)
