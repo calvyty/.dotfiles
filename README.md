@@ -10,8 +10,9 @@ curl -Lo install.sh https://raw.githubusercontent.com/calvyty/.dotfiles/main/ins
 
 ```
 nano install.sh
+```
 
-2. Run the install script
+3. Run the install script
 
 ```sh
 bash install.sh
