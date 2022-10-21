@@ -6,7 +6,7 @@ osascript -e 'tell application "System Preferences" to quit'
 # Require admin authentication upfront
 sudo -v
 
-# Install Homebrew
+# Install Homebrew (automatically installs Xcode command line tools)
 echo "Installing Homebrew..."
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew analytics off
@@ -18,26 +18,36 @@ brew analytics off
 # Brew Formulae
 #echo "Installing Brew Formulae..."
 #brew install aria2
+#brew install bat
 #brew install btop
+#brew install duf
 #brew install emacs
 #brew install emacs --HEAD
+#brew install exa
+#brew install fd
 #brew install fish
+#brew install fzf
 #brew install htop
+#brew install lsd
 #brew install macvim
 #brew install macvim --HEAD
 #brew install mailtrackerblocker
+#brew install micro
 #brew install mist
 #brew install mist --HEAD
 #brew install mpv
 #brew install mpv --HEAD
+#brew install nnn
 #brew install pandoc
-#brew install romkatv/powerlevel10k/powerlevel10k
+#brew install ripgrep
+brew install romkatv/powerlevel10k/powerlevel10k
 #brew install rtorrent
 #brew install tmux
 #brew install tmux --HEAD
 #brew install transmission-cli
 #brew install vim
 #brew install vim --HEAD
+#brew install zoxide
 
 # Casks
 echo "Installing Brew Casks..."
@@ -271,14 +281,22 @@ curl -Lo .zshrc https://raw.githubusercontent.com/calvyty/.dotfiles/main/.zshrc
 echo "Installing .vimrc..."
 curl -Lo .vimrc https://raw.githubusercontent.com/calvyty/.dotfiles/main/.vimrc
 
+# Dotfiles: Install .tmux.conf configuration file
+#echo "Installing .tmux.conf..."
+#curl -Lo .tmux.conf https://raw.githubusercontent.com/calvyty/.dotfiles/main/.tmux.conf
+
 # Post script activities
 echo "Setup complete"
 echo "Proceed to install the following Apps from the App Store:"
 #echo "* Amphetamine, id: 937984704"
 #echo "* Boop, id: 1518425043"
 #echo "* CalcService, id: 899970159"
+#echo "* Charmstone, id: 1563735522"
 echo "* CotEditor, id: 1024640650"
+#echo "* Dato, id: 1470584107"
+#echo "* Drafts, id: 1435957248"
 #echo "* Esse, id: 1438921989"
+#echo "* FreeScaler, id: 6443796196"
 echo "* GarageBand, id: 682658836"
 #echo "* Gladys, id: 1382386877"
 echo "* iMovie, id: 408981434"
@@ -293,8 +311,10 @@ echo "* OwlOCR, id: 1499181666"
 echo "* Pages, id: 409201541"
 #echo "* PopClip, id: 445189367"
 echo "* Reeder, id: 1529448980"
+#echo "* Timery for Toggl, id: 1425368544"
 #echo "* Tomito, id: 1526042938"
 #echo "* Uni Detector, id: 1531249804"
+#echo "* Userscripts, id: 1463298887"
 #echo "* WordService, id: 899972312"
 #echo "* Xcode, id: 497799835"
 #echo "* Yoink, id: 457622435"
