@@ -140,6 +140,7 @@ brew install --cask shottr
 #brew install --cask transmission
 #brew install --cask trex
 #brew install --cask unicodechecker
+#brew install --cask uninstallpkg
 #brew install --cask visual-studio-code
 #brew install --cask vlc
 #brew install --cask vscodium
@@ -147,6 +148,14 @@ brew install --cask shottr
 #brew install --cask xcodes
 #brew install --cask yippy
 #brew install --cask zotero
+
+# Brew cleanup 
+echo "Cleaning up..."
+brew update
+brew upgrade
+brew autoremove
+brew cleanup -s
+brew doctor
 
 # macOS Settings
 echo "Setting sensible macOS defaults..."
@@ -285,8 +294,8 @@ curl -Lo .vimrc https://raw.githubusercontent.com/calvyty/.dotfiles/main/.vimrc
 #echo "Installing .tmux.conf..."
 #curl -Lo .tmux.conf https://raw.githubusercontent.com/calvyty/.dotfiles/main/.tmux.conf
 
-# Post script activities
-echo "Setup complete"
+# Setup: Post script actions
+echo "Setup complete."
 echo "Proceed to install the following Apps from the App Store:"
 #echo "* Amphetamine, id: 937984704"
 #echo "* Boop, id: 1518425043"
