@@ -9,11 +9,13 @@ runtime macros/matchit.vim
 set autoindent
 set autoread
 set backspace=indent,eol,start
-set clipboard+=unnamed
+set clipboard^=unnamed
+set cursorline
+set cursorlineopt=number
 set display=truncate
 set encoding=utf-8
 set esckeys
-set formatoptions=cqrt
+set formatoptions+=jr
 set hidden
 set hlsearch
 set ignorecase
@@ -23,12 +25,14 @@ set listchars=eol:$,precedes:«,extends:»,tab:»·,trail:·,nbsp:+
 set mouse=a
 set nojoinspaces
 set nrformats-=octal
-set number 
+set number
+set pastetoggle=<F11>
 set relativenumber
 set ruler
 set shortmess=at
 set showbreak=¦
 set showcmd
+set showmatch
 set smartcase
 set smarttab
 set spelllang=en,de
@@ -36,18 +40,27 @@ set splitbelow
 set splitright
 set statusline=[%n]\ %F%m%r%h%w%=%y\ [%{&ff}]\ [%{&fileencoding}]\ [%l\/%L\ -\ %c%V\ %p%%]
 set ttimeout
-set ttimeoutlen=100
+set ttimeoutlen=10
 set whichwrap=<,>,h,l
 set wildmenu
 set wildmode=full
 set wrap
 
-" Mode aware cursor
+" Colorscheme
+colorscheme lunaperche
+
+" Cursor: Mode aware cursor
 let &t_SI = "\<esc>[5 q"
 let &t_EI = "\<esc>[2 q"
 if exists ('&t_SR')
 	let &t_SR = "\<esc>[3 q"
 endif
+
+" Cursor: Reset cursor shape on startup (ref. https://github.com/microsoft/terminal/issues/4335)
+augroup CursorShapeReset
+	autocmd!
+	autocmd VimEnter * :normal :startinsert :stopinsert
+augroup END
 
 " Enable italics for Terminal.app
 let &t_ZH="\e[3m"
@@ -58,22 +71,20 @@ let mapleader=','
 nnoremap <leader>, ,
 
 " Toggle crosshair cursor highlighting
-hi CursorLine   cterm=NONE ctermbg=15
-hi CursorColumn cterm=NONE ctermbg=15
-nnoremap <Leader>c :set cursorline! cursorcolumn!<CR>
+nnoremap <Leader>cc :set cursorline! cursorcolumn!<CR>
 
 " Toogle list chars
 nnoremap <Leader>l :set list!<CR>
 
 " Toggle between hybrid and absolute line numbers automatically
-augroup numbertoggle
+augroup NumberToggle
 	autocmd!
-	autocmd BufEnter,FocusGained,InsertLeave,WinEnter * if &number && mode() != "i" | set relativenumber   | endif
-	autocmd BufLeave,FocusLost,InsertEnter,WinLeave   * if &number                  | set norelativenumber | endif
+	autocmd BufEnter,FocusGained,InsertLeave,WinEnter * if &number && mode() != "i" | set relativenumber | endif
+	autocmd BufLeave,FocusLost,InsertEnter,WinLeave * if &number | set norelativenumber | endif
 augroup END
 
 " Function: Strip trailing whitespaces
-function! FixWhitespace()
+function! FixWhitespaces()
 	if !&binary && &filetype != 'diff'
 		normal mz
 		normal Hmy
@@ -81,4 +92,16 @@ function! FixWhitespace()
 		normal 'yz<CR>
 		normal `z
 	endif
+endfunction
+
+" Function: Enable word processing mode
+function! WordProcessorMode()
+	nnoremap j gj
+	nnoremap k gk
+	setlocal linebreak
+	setlocal noexpandtab
+	setlocal smartindent
+	setlocal spell spelllang=en,de
+	setlocal textwidth=80
+	syntax off
 endfunction

@@ -6,7 +6,10 @@ osascript -e 'tell application "System Preferences" to quit'
 # Require admin authentication upfront
 sudo -v
 
-# Install Homebrew (automatically installs Xcode command line tools)
+# Install Xcode Command Line Tools (CLT)
+xcode-select --install
+
+# Install Homebrew
 echo "Installing Homebrew..."
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew analytics off
@@ -100,6 +103,7 @@ brew install --cask maccy
 #brew install --cask macvim
 #brew install --cask mediathekview
 #brew install --cask meetingbar
+#brew install --cask mi
 #brew install --cask michaelvillar-timer
 #brew install --cask monitorcontrol
 #brew install --cask mos
@@ -118,7 +122,7 @@ brew install --cask maccy
 #brew install --cask pdf-images
 #brew install --cask r
 #brew install --cask ransomwhere
-#brew install --cask rectangle-pro
+brew install --cask rectangle-pro
 #brew install --cask reikey
 #brew install --cask shifty
 #brew install --cask sidenotes
@@ -282,6 +286,12 @@ killall Dock
 echo "Making SF-Mono-Font available system wide..."
 cp -v /System/Applications/Utilities/Terminal.app/Contents/Resources/Fonts/SF-Mono-* ~/Library/Fonts
 
+# Fonts: Install Powerlevel10k's recommended MesloLGS NF font
+curl -Lo ~/Library/Fonts https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf
+curl -Lo ~/Library/Fonts https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf
+curl -Lo ~/Library/Fonts https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf
+curl -Lo ~/Library/Fonts https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf
+
 # Dotfiles: Install .zshrc configuration file
 echo "Installing .zshrc..."
 curl -Lo .zshrc https://raw.githubusercontent.com/calvyty/.dotfiles/main/.zshrc
@@ -293,6 +303,9 @@ curl -Lo .vimrc https://raw.githubusercontent.com/calvyty/.dotfiles/main/.vimrc
 # Dotfiles: Install .tmux.conf configuration file
 #echo "Installing .tmux.conf..."
 #curl -Lo .tmux.conf https://raw.githubusercontent.com/calvyty/.dotfiles/main/.tmux.conf
+
+# CotEditor: Install cot command-line tool
+ln -s /Applications/CotEditor.app/Contents/SharedSupport/bin/cot /usr/local/bin/cot
 
 # Setup: Post script actions
 echo "Setup complete."
