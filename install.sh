@@ -43,7 +43,7 @@ brew analytics off
 #brew install nnn
 #brew install pandoc
 #brew install ripgrep
-brew install romkatv/powerlevel10k/powerlevel10k
+#brew install romkatv/powerlevel10k/powerlevel10k
 #brew install rtorrent
 #brew install tmux
 #brew install tmux --HEAD
@@ -60,7 +60,7 @@ brew install --cask aldente
 #brew install --cask amethyst
 #brew install --cask amitv87-pip
 #brew install --cask apparency
-brew install --cask appcleaner
+#brew install --cask appcleaner
 #brew install --cask betterdisplay
 #brew install --cask bettertouchtool
 #brew install --cask blender
@@ -92,11 +92,11 @@ brew install --cask appcleaner
 #brew install --cask intel-power-gadget
 #brew install --cask istat-menus
 #brew install --cask karabiner-elements
-brew install --cask keka
+#brew install --cask keka
 #brew install --cask knockknock
 #brew install --cask latest
 #brew install --cask libreoffice
-brew install --cask lulu
+#brew install --cask lulu
 brew install --cask maccy
 #brew install --cask mactex
 #brew install --cask marta
@@ -122,13 +122,13 @@ brew install --cask maccy
 #brew install --cask pdf-images
 #brew install --cask r
 #brew install --cask ransomwhere
-brew install --cask rectangle-pro
+#brew install --cask rectangle-pro
 #brew install --cask reikey
 #brew install --cask shifty
 #brew install --cask sidenotes
 #brew install --cask shortcat
 #brew install --cask shotcut
-brew install --cask shottr
+#brew install --cask shottr
 #brew install --cask sioyek
 #brew install --cask skim
 #brew install --cask slidepilot
@@ -282,11 +282,16 @@ defaults write com.apple.ActivityMonitor ShowCategory -int 0
 echo "Restarting Dock..."
 killall Dock
 
+# Restart Finder
+echo "Restarting Finder..."
+killall Finder
+
 # Fonts: Make SF Mono Fonts available for other apps
 echo "Making SF-Mono-Font available system wide..."
 cp -v /System/Applications/Utilities/Terminal.app/Contents/Resources/Fonts/SF-Mono-* ~/Library/Fonts
 
 # Fonts: Install Powerlevel10k's recommended MesloLGS NF font
+echo "Installing MesloLGS NF font..."
 curl -Lo ~/Library/Fonts https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf
 curl -Lo ~/Library/Fonts https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf
 curl -Lo ~/Library/Fonts https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf
@@ -305,11 +310,11 @@ curl -Lo .vimrc https://raw.githubusercontent.com/calvyty/.dotfiles/main/.vimrc
 #curl -Lo .tmux.conf https://raw.githubusercontent.com/calvyty/.dotfiles/main/.tmux.conf
 
 # CotEditor: Install cot command-line tool
+echo "Installing cot command-line tool..."
 ln -s /Applications/CotEditor.app/Contents/SharedSupport/bin/cot /usr/local/bin/cot
 
 # Setup: Post script actions
-echo "Setup complete."
-echo "Proceed to install the following Apps from the App Store:"
+echo "Setup complete. Proceed to install the following Apps from the App Store:"
 #echo "* Amphetamine, id: 937984704"
 #echo "* Boop, id: 1518425043"
 #echo "* CalcService, id: 899970159"
@@ -329,7 +334,7 @@ echo "* Keynote, id: 409183694"
 #echo "* Notenik, id: 1465997984"
 echo "* Numbers, id: 409203825"
 #echo "* OpenIn, id: 1547147101"
-echo "* OwlOCR, id: 1499181666"
+#echo "* OwlOCR, id: 1499181666"
 echo "* Pages, id: 409201541"
 #echo "* PopClip, id: 445189367"
 echo "* Reeder, id: 1529448980"
