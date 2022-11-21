@@ -164,6 +164,9 @@ brew doctor
 # macOS Settings
 echo "Setting sensible macOS defaults..."
 
+# General: Increase window resize speed for Cocoa applications
+defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
+
 # General: Always show scroll bars
 defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
 
@@ -226,6 +229,12 @@ chflags nohidden ~/Library && xattr -d com.apple.FinderInfo ~/Library
 
 # Finder: Show the /Volumes folder
 sudo chflags nohidden /Volumes
+
+# Dock: Remove the auto-hiding Dock delay
+defaults write com.apple.dock autohide-delay -float 0
+
+# Dock: Remove the animation when hiding/showing the Dock
+defaults write com.apple.dock autohide-time-modifier -float 0
 
 # Dock: Set the icon size of Dock items to 36 pixels
 defaults write com.apple.dock tilesize -int 36
@@ -310,8 +319,8 @@ curl -Lo .vimrc https://raw.githubusercontent.com/calvyty/.dotfiles/main/.vimrc
 #curl -Lo .tmux.conf https://raw.githubusercontent.com/calvyty/.dotfiles/main/.tmux.conf
 
 # CotEditor: Install cot command-line tool
-echo "Installing cot command-line tool..."
-ln -s /Applications/CotEditor.app/Contents/SharedSupport/bin/cot /usr/local/bin/cot
+#echo "Installing cot command-line tool..."
+#ln -s /Applications/CotEditor.app/Contents/SharedSupport/bin/cot /usr/local/bin/cot
 
 # Setup: Post script actions
 echo "Setup complete. Proceed to install the following Apps from the App Store:"
