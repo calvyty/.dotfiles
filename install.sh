@@ -7,7 +7,7 @@ osascript -e 'tell application "System Preferences" to quit'
 sudo -v
 
 # Install Xcode Command Line Tools (CLT)
-xcode-select --install
+#xcode-select --install
 
 # Install Homebrew
 echo "Installing Homebrew..."
@@ -113,6 +113,7 @@ brew install --cask maccy
 #brew install --cask nightowl
 #brew install --cask obs
 #brew install --cask obsidian
+#brew install --cask only-switch
 #brew install --cask onlyoffice
 #brew install --cask onyx
 #brew install --cask orion
@@ -197,7 +198,7 @@ defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
 defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
 defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 
-# Finder: show hidden files by default
+# Finder: Show hidden files by default
 defaults write com.apple.finder AppleShowAllFiles -bool true
 
 # Finder: Show all filename extensions
@@ -221,14 +222,15 @@ defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
 # Finder: Disable the warning when changing a file extension
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
-# Finder: Use list view in all Finder windows by default
-defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
-
 # Finder: Show the ~/Library folder
 chflags nohidden ~/Library && xattr -d com.apple.FinderInfo ~/Library
 
 # Finder: Show the /Volumes folder
 sudo chflags nohidden /Volumes
+
+# Finder: Set Default Finder Location to Home Folder
+defaults write com.apple.finder NewWindowTarget -string "PfLo" && \
+defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}"
 
 # Dock: Remove the auto-hiding Dock delay
 defaults write com.apple.dock autohide-delay -float 0
@@ -252,7 +254,12 @@ defaults write com.apple.dock show-recents -bool false
 defaults write com.apple.dock show-process-indicators -bool true
 
 # Dock: Don’t automatically rearrange Spaces based on most recent use
-defaults write com.apple.dock mru-spaces -bool false
+defaults write com.apple.dock mru-spaces -bool false && \
+killall Dock
+
+# Dock: Use the touchpad or mouse scroll wheel to interact with Dock items
+defaults write com.apple.dock scroll-to-open -bool true && \
+killall Dock
 
 # Safari: Prevent Safari from opening ‘safe’ files automatically after downloading
 defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
@@ -265,6 +272,9 @@ defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebK
 
 # Safari: Add a context menu item for showing the Web Inspector in web views
 defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
+
+# Safari: Use Backspace to Go Back a Page
+defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled -bool true
 
 # Mail: Copy email addresses as `foo@example.com` instead of `Foo Bar <foo@example.com>` in Mail.app
 defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
@@ -300,11 +310,11 @@ echo "Making SF-Mono-Font available system wide..."
 cp -v /System/Applications/Utilities/Terminal.app/Contents/Resources/Fonts/SF-Mono-* ~/Library/Fonts
 
 # Fonts: Install Powerlevel10k's recommended MesloLGS NF font
-echo "Installing MesloLGS NF font..."
-curl -Lo ~/Library/Fonts https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf
-curl -Lo ~/Library/Fonts https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf
-curl -Lo ~/Library/Fonts https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf
-curl -Lo ~/Library/Fonts https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf
+#echo "Installing MesloLGS NF font..."
+#curl -Lo ~/Library/Fonts/MesloLGS_NF_Regular.ttf https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf
+#curl -Lo ~/Library/Fonts/MesloLGS_NF_Bold.ttf https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf
+#curl -Lo ~/Library/Fonts/MesloLGS_NF_Italic.ttf https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf
+#curl -Lo ~/Library/Fonts/MesloLGS_NF_Bold_Italic.ttf https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf
 
 # Dotfiles: Install .zshrc configuration file
 echo "Installing .zshrc..."
@@ -328,14 +338,14 @@ echo "Setup complete. Proceed to install the following Apps from the App Store:"
 #echo "* Boop, id: 1518425043"
 #echo "* CalcService, id: 899970159"
 #echo "* Charmstone, id: 1563735522"
-echo "* CotEditor, id: 1024640650"
+#echo "* CotEditor, id: 1024640650"
 #echo "* Dato, id: 1470584107"
 #echo "* Drafts, id: 1435957248"
 #echo "* Esse, id: 1438921989"
 #echo "* FreeScaler, id: 6443796196"
-echo "* GarageBand, id: 682658836"
+#echo "* GarageBand, id: 682658836"
 #echo "* Gladys, id: 1382386877"
-echo "* iMovie, id: 408981434"
+#echo "* iMovie, id: 408981434"
 echo "* Keynote, id: 409183694"
 #echo "* Microsoft Excel, id: 462058435"
 #echo "* Microsoft PowerPoint, id: 462062816"
