@@ -242,7 +242,7 @@ defaults write com.apple.dock autohide-time-modifier -float 0
 defaults write com.apple.dock tilesize -int 36
 
 # Dock: Only show active applications in the Dock
-defaults write com.apple.dock static-only -bool true
+#defaults write com.apple.dock static-only -bool true
 
 # Dock: Make icons of hidden applications translucent
 defaults write com.apple.dock showhidden -bool true
