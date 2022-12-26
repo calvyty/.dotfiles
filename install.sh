@@ -186,7 +186,7 @@ defaults write com.apple.LaunchServices LSQuarantine -bool false
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
 # General: Enable Full Keyboard Access (Tab in modal dialogs)
-defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
+#defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
 # General: Require password immediately after sleep or screen saver begins
 defaults write com.apple.screensaver askForPassword -int 1
@@ -261,6 +261,9 @@ killall Dock
 defaults write com.apple.dock scroll-to-open -bool true && \
 killall Dock
 
+# Dock: Reset Launchapd Layout
+defaults write com.apple.dock ResetLaunchPad -bool true
+
 # Safari: Prevent Safari from opening ‘safe’ files automatically after downloading
 defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
 
@@ -277,7 +280,7 @@ defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled -bool true
 
 # Mail: Copy email addresses as `foo@example.com` instead of `Foo Bar <foo@example.com>` in Mail.app
-defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
+#defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
 
 # Mail: Show Attachments as Icons
 defaults write com.apple.mail DisableInlineAttachmentViewing -bool true
@@ -287,9 +290,6 @@ defaults write com.apple.TextEdit NSShowAppCentricOpenPanelInsteadOfUntitledFile
 
 # TextEdit: Use plain text as default
 defaults write com.apple.TextEdit RichText -int 0
-
-# Launchpad: Reset Launchapd Layout
-defaults write com.apple.dock ResetLaunchPad -bool true
 
 # Activity Monitor: Show the main window when launching
 defaults write com.apple.ActivityMonitor OpenMainWindow -bool true
