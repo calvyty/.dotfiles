@@ -262,7 +262,8 @@ defaults write com.apple.dock scroll-to-open -bool true && \
 killall Dock
 
 # Dock: Reset Launchapd Layout
-defaults write com.apple.dock ResetLaunchPad -bool true
+defaults write com.apple.dock ResetLaunchPad -bool true && \
+killall Dock
 
 # Safari: Prevent Safari from opening ‘safe’ files automatically after downloading
 defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
