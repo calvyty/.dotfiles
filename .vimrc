@@ -70,9 +70,6 @@ let &t_ZR="\e[23m"
 let mapleader=','
 nnoremap <leader>, ,
 
-" Toggle crosshair cursor highlighting
-nnoremap <Leader>cc :set cursorline! cursorcolumn!<CR>
-
 " Toogle list chars
 nnoremap <Leader>l :set list!<CR>
 
