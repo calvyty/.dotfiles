@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Close System Preferences to prevent interferences when applying settings
+echo "Closing System Preferences..."
 osascript -e 'tell application "System Preferences" to quit'
 
 # Require admin authentication upfront
@@ -155,12 +156,12 @@ brew install --cask maccy
 #brew install --cask zotero
 
 # Brew cleanup 
-echo "Cleaning up..."
-brew update
-brew upgrade
-brew autoremove
-brew cleanup -s
-brew doctor
+#echo "Cleaning up..."
+#brew update
+#brew upgrade
+#brew autoremove
+#brew cleanup -s
+#brew doctor
 
 # macOS Settings
 echo "Setting sensible macOS defaults..."
@@ -188,7 +189,7 @@ defaults write com.apple.dock showhidden -bool true
 defaults write com.apple.dock autohide-time-modifier -float 0
 
 # Dock: Remove the auto-hiding Dock delay
-defaults write com.apple.dock autohide-delay -float 0
+#defaults write com.apple.dock autohide-delay -float 0
 
 # Dock: Reset Launchapd Layout
 defaults write com.apple.dock ResetLaunchPad -bool true && \
@@ -208,7 +209,7 @@ killall Dock
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
 # Finder: Display full POSIX path as Finder window title
-defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
+#defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 
 # Finder: Show all filename extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
@@ -275,7 +276,7 @@ defaults write com.apple.screensaver askForPasswordDelay -int 0
 #defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
 
 # Mail: Show Attachments as Icons
-defaults write com.apple.mail DisableInlineAttachmentViewing -bool true
+#defaults write com.apple.mail DisableInlineAttachmentViewing -bool true
 
 # Safari: Add a context menu item for showing the Web Inspector in web views
 defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
@@ -290,7 +291,7 @@ defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebK
 defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
 
 # Safari: Use Backspace to Go Back a Page
-defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled -bool true
+#defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled -bool true
 
 # TextEdit: Create an Untitled Document at Launch
 defaults write com.apple.TextEdit NSShowAppCentricOpenPanelInsteadOfUntitledFile -bool false
@@ -299,12 +300,12 @@ defaults write com.apple.TextEdit NSShowAppCentricOpenPanelInsteadOfUntitledFile
 defaults write com.apple.TextEdit RichText -int 0
 
 # Restart Dock
-echo "Restarting Dock..."
-killall Dock
+#echo "Restarting Dock..."
+#killall Dock
 
 # Restart Finder
-echo "Restarting Finder..."
-killall Finder
+#echo "Restarting Finder..."
+#killall Finder
 
 # Fonts: Make SF Mono Fonts available for other apps
 echo "Making SF-Mono-Font available system wide..."
@@ -318,12 +319,12 @@ cp -v /System/Applications/Utilities/Terminal.app/Contents/Resources/Fonts/SF-Mo
 #curl -Lo ~/Library/Fonts/MesloLGS_NF_Bold_Italic.ttf https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf
 
 # Dotfiles: Install .zshrc configuration file
-echo "Installing .zshrc..."
-curl -Lo .zshrc https://raw.githubusercontent.com/calvyty/.dotfiles/main/.zshrc
+#echo "Installing .zshrc..."
+#curl -Lo .zshrc https://raw.githubusercontent.com/calvyty/.dotfiles/main/.zshrc
 
 # Dotfiles: Install .vimrc configuration file
-echo "Installing .vimrc..."
-curl -Lo .vimrc https://raw.githubusercontent.com/calvyty/.dotfiles/main/.vimrc
+#echo "Installing .vimrc..."
+#curl -Lo .vimrc https://raw.githubusercontent.com/calvyty/.dotfiles/main/.vimrc
 
 # Dotfiles: Install .tmux.conf configuration file
 #echo "Installing .tmux.conf..."
