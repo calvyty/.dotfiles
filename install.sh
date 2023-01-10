@@ -152,6 +152,7 @@ brew install --cask maccy
 #brew install --cask vscodium
 #brew install --cask whatsyoursign
 #brew install --cask xcodes
+#brew install --cask yattee
 #brew install --cask yippy
 #brew install --cask zotero
 
@@ -341,6 +342,7 @@ echo "Setup complete. Proceed to install the following Apps from the App Store:"
 #echo "* CalcService, id: 899970159"
 #echo "* Charmstone, id: 1563735522"
 #echo "* CotEditor, id: 1024640650"
+echo "* Cuterdio, id: 1489513385"
 #echo "* Dato, id: 1470584107"
 #echo "* Drafts, id: 1435957248"
 #echo "* Esse, id: 1438921989"
