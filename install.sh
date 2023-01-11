@@ -168,46 +168,46 @@ brew install --cask maccy
 echo "Setting sensible macOS defaults..."
 
 # Activity Monitor: Show all processes
-defaults write com.apple.ActivityMonitor ShowCategory -int 0
+#defaults write com.apple.ActivityMonitor ShowCategory -int 0
 
 # Activity Monitor: Show the main window when launching
-defaults write com.apple.ActivityMonitor OpenMainWindow -bool true
+#defaults write com.apple.ActivityMonitor OpenMainWindow -bool true
 
 # Dock: Don’t automatically rearrange Spaces based on most recent use
-defaults write com.apple.dock mru-spaces -bool false && \
-killall Dock
+#defaults write com.apple.dock mru-spaces -bool false && \
+#killall Dock
 
 # Dock: Don’t show recent applications in Dock
-defaults write com.apple.dock show-recents -bool false
+#defaults write com.apple.dock show-recents -bool false
 
 # Dock: Make icons of hidden applications translucent
-defaults write com.apple.dock showhidden -bool true
+#defaults write com.apple.dock showhidden -bool true
 
 # Dock: Only show active applications in the Dock
 #defaults write com.apple.dock static-only -bool true
 
 # Dock: Remove the animation when hiding/showing the Dock
-defaults write com.apple.dock autohide-time-modifier -float 0
+#defaults write com.apple.dock autohide-time-modifier -float 0
 
 # Dock: Remove the auto-hiding Dock delay
 #defaults write com.apple.dock autohide-delay -float 0
 
 # Dock: Reset Launchapd Layout
-defaults write com.apple.dock ResetLaunchPad -bool true && \
-killall Dock
+#defaults write com.apple.dock ResetLaunchPad -bool true && \
+#killall Dock
 
 # Dock: Set the icon size of Dock items to 36 pixels
-defaults write com.apple.dock tilesize -int 36
+#defaults write com.apple.dock tilesize -int 36
 
 # Dock: Show indicators for open applications
-defaults write com.apple.dock show-process-indicators -bool true
+#defaults write com.apple.dock show-process-indicators -bool true
 
 # Dock: Use the touchpad or mouse scroll wheel to interact with Dock items
-defaults write com.apple.dock scroll-to-open -bool true && \
-killall Dock
+#defaults write com.apple.dock scroll-to-open -bool true && \
+#killall Dock
 
 # Finder: Disable the warning when changing a file extension
-defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+#defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
 # Finder: Display full POSIX path as Finder window title
 #defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
@@ -216,62 +216,62 @@ defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
 # Finder: Show hidden files by default
-defaults write com.apple.finder AppleShowAllFiles -bool true
+#defaults write com.apple.finder AppleShowAllFiles -bool true
 
 # Finder: Show icons for hard drives, servers, and removable media on the desktop
-defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
-defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
-defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
-defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
+#defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
+#defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
+#defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
+#defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 
 # Finder: Keep folders on top when sorting by name
-defaults write com.apple.finder _FXSortFoldersFirst -bool true
+#defaults write com.apple.finder _FXSortFoldersFirst -bool true
 
 # Finder: Set Default Finder Location to Home Folder
-defaults write com.apple.finder NewWindowTarget -string "PfLo" && \
-defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}"
+#defaults write com.apple.finder NewWindowTarget -string "PfLo" && \
+#defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}"
 
 # Finder: Show the ~/Library folder
-chflags nohidden ~/Library && xattr -d com.apple.FinderInfo ~/Library
+#chflags nohidden ~/Library && xattr -d com.apple.FinderInfo ~/Library
 
 # Finder: Show the /Volumes folder
-sudo chflags nohidden /Volumes
+#sudo chflags nohidden /Volumes
 
 # Finder: Show path bar
-defaults write com.apple.finder ShowPathbar -bool true
+#defaults write com.apple.finder ShowPathbar -bool true
 
 # Finder: Show status bar
-defaults write com.apple.finder ShowStatusBar -bool true
+#defaults write com.apple.finder ShowStatusBar -bool true
 
 # Finder: When performing a search, search the current folder by default
-defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
+#defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
 
 # General: Always show scroll bars
-defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
+#defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
 
 # General: Disable auto-correct
-defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+#defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
 # General: Disable the “Are you sure you want to open this application?” dialog
-defaults write com.apple.LaunchServices LSQuarantine -bool false
+#defaults write com.apple.LaunchServices LSQuarantine -bool false
 
 # General: Enable Full Keyboard Access (Tab in modal dialogs)
 #defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
 # General: Expand print panel by default
-defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
-defaults write NSGlobalDomain PMPrintingExpandedStateForPrint2 -bool true
+#defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
+#defaults write NSGlobalDomain PMPrintingExpandedStateForPrint2 -bool true
 
 # General: Expand save panel by default
-defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
-defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
+#defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
+#defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
 
 # General: Increase window resize speed for Cocoa applications
-defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
+#defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
 
 # General: Require password immediately after sleep or screen saver begins
-defaults write com.apple.screensaver askForPassword -int 1
-defaults write com.apple.screensaver askForPasswordDelay -int 0
+#defaults write com.apple.screensaver askForPassword -int 1
+#defaults write com.apple.screensaver askForPasswordDelay -int 0
 
 # Mail: Copy email addresses as `foo@example.com` instead of `Foo Bar <foo@example.com>` in Mail.app
 #defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
@@ -280,16 +280,16 @@ defaults write com.apple.screensaver askForPasswordDelay -int 0
 #defaults write com.apple.mail DisableInlineAttachmentViewing -bool true
 
 # Safari: Add a context menu item for showing the Web Inspector in web views
-defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
+#defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
 # Safari: Enable the Develop menu and the Web Inspector in Safari
-defaults write com.apple.Safari IncludeInternalDebugMenu -bool true
-defaults write com.apple.Safari IncludeDevelopMenu -bool true
-defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
-defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true
+#defaults write com.apple.Safari IncludeInternalDebugMenu -bool true
+#defaults write com.apple.Safari IncludeDevelopMenu -bool true
+#defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
+#defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true
 
 # Safari: Prevent Safari from opening ‘safe’ files automatically after downloading
-defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
+#defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
 
 # Safari: Use Backspace to Go Back a Page
 #defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled -bool true
@@ -320,12 +320,12 @@ cp -v /System/Applications/Utilities/Terminal.app/Contents/Resources/Fonts/SF-Mo
 #curl -Lo ~/Library/Fonts/MesloLGS_NF_Bold_Italic.ttf https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf
 
 # Dotfiles: Install .zshrc configuration file
-#echo "Installing .zshrc..."
-#curl -Lo .zshrc https://raw.githubusercontent.com/calvyty/.dotfiles/main/.zshrc
+echo "Installing .zshrc..."
+curl -Lo .zshrc https://raw.githubusercontent.com/calvyty/.dotfiles/main/.zshrc
 
 # Dotfiles: Install .vimrc configuration file
-#echo "Installing .vimrc..."
-#curl -Lo .vimrc https://raw.githubusercontent.com/calvyty/.dotfiles/main/.vimrc
+echo "Installing .vimrc..."
+curl -Lo .vimrc https://raw.githubusercontent.com/calvyty/.dotfiles/main/.vimrc
 
 # Dotfiles: Install .tmux.conf configuration file
 #echo "Installing .tmux.conf..."
@@ -336,13 +336,14 @@ cp -v /System/Applications/Utilities/Terminal.app/Contents/Resources/Fonts/SF-Mo
 #ln -s /Applications/CotEditor.app/Contents/SharedSupport/bin/cot /usr/local/bin/cot
 
 # Setup: Post script actions
-echo "Setup complete. Proceed to install the following Apps from the App Store:"
+echo "Setup complete."
+#echo "Proceed to install the following Apps from the App Store:"
 #echo "* Amphetamine, id: 937984704"
 #echo "* Boop, id: 1518425043"
 #echo "* CalcService, id: 899970159"
 #echo "* Charmstone, id: 1563735522"
 #echo "* CotEditor, id: 1024640650"
-echo "* Cuterdio, id: 1489513385"
+#echo "* Cuterdio, id: 1489513385"
 #echo "* Dato, id: 1470584107"
 #echo "* Drafts, id: 1435957248"
 #echo "* Esse, id: 1438921989"
@@ -350,17 +351,17 @@ echo "* Cuterdio, id: 1489513385"
 #echo "* GarageBand, id: 682658836"
 #echo "* Gladys, id: 1382386877"
 #echo "* iMovie, id: 408981434"
-echo "* Keynote, id: 409183694"
+#echo "* Keynote, id: 409183694"
 #echo "* Microsoft Excel, id: 462058435"
 #echo "* Microsoft PowerPoint, id: 462062816"
 #echo "* Microsoft Word, id: 462054704"
 #echo "* Notenik, id: 1465997984"
-echo "* Numbers, id: 409203825"
+#echo "* Numbers, id: 409203825"
 #echo "* OpenIn, id: 1547147101"
 #echo "* OwlOCR, id: 1499181666"
-echo "* Pages, id: 409201541"
+#echo "* Pages, id: 409201541"
 #echo "* PopClip, id: 445189367"
-echo "* Reeder, id: 1529448980"
+#echo "* Reeder, id: 1529448980"
 #echo "* Timery for Toggl, id: 1425368544"
 #echo "* Tomito, id: 1526042938"
 #echo "* Uni Detector, id: 1531249804"
