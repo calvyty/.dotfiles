@@ -82,6 +82,7 @@ brew install --cask aldente
 #brew install --cask font-victor-mono-nerd-font
 #brew install --cask fsnotes
 #brew install --cask gimp
+#brew install --cask grandperspective
 #brew install --cask hammerspoon
 #brew install --cask handbrake
 #brew install --cask hex-fiend
@@ -140,6 +141,7 @@ brew install --cask maccy
 #brew install --cask spaceman
 #brew install --cask stretchly
 #brew install --cask suspicious-package
+#brew install --cask sweet-home3d
 #brew install --cask taskexplorer
 #brew install --cask textmate
 #brew install --cask tomatobar
